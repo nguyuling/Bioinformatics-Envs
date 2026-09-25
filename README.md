@@ -1,4 +1,4 @@
-# Purpose-specific Environments and their `packages` for Bioinformatics Workflow
+# Purpose-specific `envs` and their `packages` for Bioinformatics Workflow
 
 ## Quality Control
 To perform assessement on sequencing quality, trim adapters and filter out low-quality reads.
