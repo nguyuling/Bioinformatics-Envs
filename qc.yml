@@ -1,0 +1,22 @@
+name: qc
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  # Python Runtime
+  - python=3.10
+
+  # Core QC Tools
+  - cutadapt
+  - fastp
+  - fastqc
+  - fastqe
+  - multiqc
+  - nanoplot
+  - samtools
+  - seqkit
+
+  # Pure-Python Packages
+  - pip:
+    - pycoqc
