@@ -1,0 +1,1750 @@
+abricate
+    /abricate
+
+antismash
+    /antismash_env
+
+any2fasta
+    /abricate
+
+aragorn
+    /virus
+
+ariba
+    /ariba_amr
+
+art
+    /trtools
+
+augustus
+    /busco
+
+bamtools
+    /busco
+
+barrnap
+    /wgs_prok
+
+bbmap
+    /busco
+
+bcbio-gff
+    /antismash_env
+    /biobakery3
+    /run_dbcans
+    /virus
+
+bcftools
+    /ariba_amr
+    /bowtie
+    /ont
+    /trtools
+    /wgs_prok
+
+bedtools
+    /ont
+    /quast_env
+    /wgs_prok
+
+bioconductor-ancombc
+    /qiime2-amplicon
+
+bioconductor-beachmat
+    /qiime2-amplicon
+
+bioconductor-biobase
+    /mirge3_py38
+    /p_smg2
+    /qiime2-amplicon
+    /run-rscript
+
+bioconductor-biocbaseutils
+    /qiime2-amplicon
+
+bioconductor-biocgenerics
+    /mirge3_py38
+    /p_smg2
+    /qiime2-amplicon
+    /run-rscript
+
+bioconductor-biocneighbors
+    /qiime2-amplicon
+
+bioconductor-biocparallel
+    /mirge3_py38
+    /qiime2-amplicon
+    /run-rscript
+
+bioconductor-biocsingular
+    /qiime2-amplicon
+
+bioconductor-biomformat
+    /p_smg2
+    /qiime2-amplicon
+
+bioconductor-biostrings
+    /p_smg2
+    /qiime2-amplicon
+    /run-rscript
+
+bioconductor-bluster
+    /qiime2-amplicon
+
+bioconductor-cigarillo
+    /run-rscript
+
+bioconductor-dada2
+    /qiime2-amplicon
+    /run-rscript
+
+bioconductor-data-packages
+    /mirge3_py38
+    /p_smg2
+    /qiime2-amplicon
+
+bioconductor-decipher
+    /qiime2-amplicon
+
+bioconductor-decontam
+    /qiime2-amplicon
+
+bioconductor-delayedarray
+    /mirge3_py38
+    /qiime2-amplicon
+    /run-rscript
+
+bioconductor-delayedmatrixstats
+    /qiime2-amplicon
+
+bioconductor-deseq2
+    /mirge3_py38
+
+bioconductor-dirichletmultinomial
+    /qiime2-amplicon
+
+bioconductor-genomeinfodb
+    /mirge3_py38
+    /p_smg2
+    /qiime2-amplicon
+
+bioconductor-genomeinfodbdata
+    /mirge3_py38
+    /qiime2-amplicon
+
+bioconductor-genomicalignments
+    /qiime2-amplicon
+    /run-rscript
+
+bioconductor-genomicranges
+    /mirge3_py38
+    /qiime2-amplicon
+    /run-rscript
+
+bioconductor-iranges
+    /mirge3_py38
+    /p_smg2
+    /qiime2-amplicon
+    /run-rscript
+
+bioconductor-matrixgenerics
+    /mirge3_py38
+    /qiime2-amplicon
+    /run-rscript
+
+bioconductor-mia
+    /qiime2-amplicon
+
+bioconductor-microbiome
+    /p_smg2
+    /qiime2-amplicon
+
+bioconductor-multiassayexperiment
+    /qiime2-amplicon
+
+bioconductor-multtest
+    /p_smg2
+    /qiime2-amplicon
+
+bioconductor-phyloseq
+    /p_smg2
+    /qiime2-amplicon
+
+bioconductor-pwalign
+    /run-rscript
+
+bioconductor-rhdf5
+    /p_smg2
+    /qiime2-amplicon
+
+bioconductor-rhdf5filters
+    /p_smg2
+    /qiime2-amplicon
+
+bioconductor-rhdf5lib
+    /p_smg2
+    /qiime2-amplicon
+
+bioconductor-rhtslib
+    /qiime2-amplicon
+    /run-rscript
+
+bioconductor-rsamtools
+    /qiime2-amplicon
+    /run-rscript
+
+bioconductor-s4arrays
+    /mirge3_py38
+    /qiime2-amplicon
+    /run-rscript
+
+bioconductor-s4vectors
+    /mirge3_py38
+    /p_smg2
+    /qiime2-amplicon
+    /run-rscript
+
+bioconductor-scaledmatrix
+    /qiime2-amplicon
+
+bioconductor-scater
+    /qiime2-amplicon
+
+bioconductor-scuttle
+    /qiime2-amplicon
+
+bioconductor-seqinfo
+    /run-rscript
+
+bioconductor-shortread
+    /qiime2-amplicon
+    /run-rscript
+
+bioconductor-singlecellexperiment
+    /qiime2-amplicon
+
+bioconductor-sparsearray
+    /mirge3_py38
+    /qiime2-amplicon
+    /run-rscript
+
+bioconductor-sparsematrixstats
+    /qiime2-amplicon
+
+bioconductor-summarizedexperiment
+    /mirge3_py38
+    /qiime2-amplicon
+    /run-rscript
+
+bioconductor-treeio
+    /qiime2-amplicon
+
+bioconductor-treesummarizedexperiment
+    /qiime2-amplicon
+
+bioconductor-ucsc.utils
+    /mirge3_py38
+
+bioconductor-xvector
+    /mirge3_py38
+    /p_smg2
+    /qiime2-amplicon
+    /run-rscript
+
+bioconductor-zlibbioc
+    /mirge3_py38
+    /p_smg2
+    /qiime2-amplicon
+
+blast
+    /abricate
+    /antismash_env
+    /biobakery3
+    /busco
+    /mitozEnv
+    /ont
+    /p_smg2
+    /p_smgkraken
+    /qiime2-amplicon
+    /quast_env
+    /run_dbcans
+    /uptodate
+    /virus
+
+blast-legacy
+    /abricate
+    /biobakery3
+    /metaxa
+    /mitozEnv
+
+blobtk
+    /ont
+
+blobtoolkit
+    /ont
+
+bowtie
+    /mirge3_py38
+
+bowtie2
+    /ariba_amr
+    /biobakery3
+    /bowtie
+    /p_smg2
+    /qiime2-amplicon
+
+bracken
+    /p_smgkraken
+
+brawn
+    /antismash_env
+
+busco
+    /busco
+
+bwa
+    /bowtie
+    /mitozEnv
+    /ont
+    /p_smg2
+    /quast_env
+    /run_dbcans
+    /wgs_prok
+
+bx-python
+    /antismash_env
+    /biobakery3
+    /run_dbcans
+    /virus
+
+cd-hit
+    /ariba_amr
+    /wgs-euk
+
+cdbtools
+    /busco
+
+checkm-genome
+    /wgs_prok
+
+checkm2
+    /busco
+    /checkm2
+
+checkv
+    /virus
+
+circos
+    /mitozEnv
+    /ont
+    /quast_env
+
+clustalo
+    /abricate
+    /mitozEnv
+
+clustalw
+    /abricate
+    /busco
+    /mitozEnv
+    /phylo_env
+    /qiime2-amplicon
+
+cmseq
+    /biobakery3
+
+consan
+    /abricate
+
+coreutils
+    /mitozEnv
+
+cutadapt
+    /mirge3_py38
+    /qiime2-amplicon
+    /run_dbcans
+
+cyvcf2
+    /trtools
+
+dbcan
+    /run_dbcans
+
+dca
+    /abricate
+
+deblur
+    /qiime2-amplicon
+
+dendropy
+    /abricate
+    /ariba_amr
+    /biobakery3
+    /busco
+    /p_smg2
+    /qiime2-amplicon
+    /wgs_prok
+
+dialign-tx
+    /abricate
+
+diamond
+    /antismash_env
+    /biobakery3
+    /busco
+    /checkm2
+    /diamond_env
+    /p_ktools
+    /p_smg2
+    /run_dbcans
+    /virus
+
+dnaapler
+    /virus
+
+dnaio
+    /mirge3_py38
+    /qiime2-amplicon
+    /run_dbcans
+
+easel
+    /p_ktools
+
+eggnog-mapper
+    /p_ktools
+
+entrez-direct
+    /abricate
+    /antismash_env
+    /biobakery3
+    /busco
+    /esearch
+    /mitozEnv
+    /ont
+    /p_ktools
+    /p_smg2
+    /p_smgkraken
+    /qiime2-amplicon
+    /quast_env
+    /uptodate
+    /virus
+    /wgs-euk
+
+eukrep
+    /eukrep-env
+
+famdb
+    /wgs-euk
+
+famsa
+    /abricate
+
+fastahack
+    /ont
+
+fastp
+    /mitozEnv
+    /p_smg2
+    /qiime2-amplicon
+    /wgs_prok
+
+fastqc
+    /mirge3_py38
+    /multiqc_env
+    /p_smg2
+    /qiime2-amplicon
+    /run_dbcans
+    /wgs_prok
+
+fasttree
+    /antismash_env
+    /biobakery3
+    /busco
+    /p_smg2
+    /phylo_env
+    /qiime2-amplicon
+    /uptodate
+
+filtlong
+    /ont
+
+flye
+    /ont
+    /run_dbcans
+
+freebayes
+    /fbayes
+    /ont
+
+genbank
+    /virus
+
+genometools-genometools
+    /wgs-euk
+
+glimmerhmm
+    /ont
+    /quast_env
+
+hclust2
+    /p_smg2
+
+helperlibs
+    /antismash_env
+
+hmmer
+    /antismash_env
+    /biobakery3
+    /busco
+    /metaxa
+    /mitozEnv
+    /p_ktools
+    /qiime2-amplicon
+    /virus
+    /wgs-euk
+    /wgs_prok
+
+hmmer2
+    /antismash_env
+
+htslib
+    /ariba_amr
+    /biobakery3
+    /bowtie
+    /busco
+    /fbayes
+    /mirge3_py38
+    /mitozEnv
+    /ont
+    /p_smg2
+    /qiime2-amplicon
+    /run_dbcans
+    /trtools
+    /wgs_prok
+
+infernal
+    /mitozEnv
+    /virus
+
+iow
+    /qiime2-amplicon
+
+iqtree
+    /biobakery3
+    /p_smg2
+    /phylo_env
+    /qiime2-amplicon
+
+itsx
+    /wgs_prok
+
+java-jdk
+    /run_dbcans
+
+jellyfish
+    /ksnp
+
+jemalloc
+    /ksnp
+
+jq
+    /mirge3_py38
+    /p_smg2
+
+k8
+    /ont
+    /quast_env
+    /run_dbcans
+    /wgs_prok
+
+kalign2
+    /abricate
+
+kcounter
+    /virus
+
+kmer-jellyfish
+    /p_smgkraken
+
+kopt
+    /abricate
+
+kpal
+    /eukrep-env
+
+kraken-biom
+    /p_ktools
+
+kraken2
+    /p_smgkraken
+    /run_dbcans
+
+krakentools
+    /p_ktools
+    /run_dbcans
+
+krakenuniq
+    /p_smgkraken
+
+krona
+    /p_ktools
+
+lefse
+    /lefse_env
+
+ltr_retriever
+    /wgs-euk
+
+mafft
+    /abricate
+    /metaxa
+    /mitozEnv
+    /p_smg2
+    /uptodate
+
+mappy
+    /ont
+
+mash
+    /biobakery3
+    /p_smg2
+    /virus
+
+medaka
+    /ont
+
+megahit
+    /mitozEnv
+    /p_smg2
+    /run_dbcans
+
+merqury
+    /ont
+
+meryl
+    /ont
+
+metaeuk
+    /busco
+
+metaphlan
+    /biobakery3
+    /p_smg2
+
+metaxa
+    /biobakery3
+    /metaxa
+
+minced
+    /virus
+
+minimap2
+    /ont
+    /quast_env
+    /run_dbcans
+    /wgs_prok
+
+miniprot
+    /busco
+
+mirge3
+    /mirge3_py38
+
+mitoz
+    /mitozEnv
+
+mmseqs2
+    /p_ktools
+    /run_dbcans
+    /virus
+
+moods
+    /antismash_env
+
+multiqc
+    /multiqc_env
+    /p_smg2
+    /wgs_prok
+
+mummer
+    /ariba_amr
+
+munkres
+    /abricate
+    /ariba_amr
+    /busco
+    /lefse_env
+    /mirge3_py38
+    /p_smg2
+    /run_dbcans
+
+muscle
+    /abricate
+    /biobakery3
+    /busco
+    /mitozEnv
+    /p_smg2
+    /phylo_env
+    /qiime2-amplicon
+
+mustang
+    /abricate
+
+nanoget
+    /ont
+
+nanoplot
+    /ont
+
+ncbi-datasets-pyclient
+    /qiime2-amplicon
+
+ncbi-vdb
+    /abricate
+    /antismash_env
+    /biobakery3
+    /busco
+    /mitozEnv
+    /ont
+    /p_smg2
+    /p_smgkraken
+    /qiime2-amplicon
+    /quast_env
+    /uptodate
+    /virus
+    /wgs-euk
+
+nextpolish
+    /ont
+
+ninja-nj
+    /wgs-euk
+
+nrpys
+    /antismash_env
+
+nseg
+    /wgs-euk
+
+ont-fast5-api
+    /ont
+
+paml
+    /abricate
+    /mitozEnv
+
+parasail-python
+    /ont
+
+pasta
+    /abricate
+    /busco
+    /qiime2-amplicon
+
+perl-algorithm-diff
+    /abricate
+    /mitozEnv
+
+perl-apache-test
+    /busco
+
+perl-archive-tar
+    /abricate
+    /antismash_env
+    /biobakery3
+    /busco
+    /mitozEnv
+    /ont
+    /p_smg2
+    /p_smgkraken
+    /qiime2-amplicon
+    /quast_env
+    /uptodate
+    /virus
+    /wgs-euk
+
+perl-base
+    /abricate
+    /busco
+    /mitozEnv
+
+perl-bio-asn1-entrezgene
+    /abricate
+    /mitozEnv
+
+perl-bio-coordinate
+    /abricate
+    /mitozEnv
+
+perl-bio-featureio
+    /abricate
+    /mitozEnv
+
+perl-bio-samtools
+    /abricate
+    /mitozEnv
+
+perl-bio-searchio-hmmer
+    /abricate
+    /mitozEnv
+
+perl-bio-tools-phylo-paml
+    /abricate
+    /mitozEnv
+
+perl-bio-tools-run-alignment-clustalw
+    /abricate
+    /mitozEnv
+
+perl-bio-tools-run-alignment-tcoffee
+    /abricate
+    /mitozEnv
+
+perl-bioperl
+    /abricate
+    /mitozEnv
+
+perl-bioperl-core
+    /abricate
+    /mitozEnv
+
+perl-bioperl-run
+    /abricate
+    /mitozEnv
+
+perl-business-isbn
+    /abricate
+    /mitozEnv
+
+perl-business-isbn-data
+    /abricate
+    /mitozEnv
+
+perl-capture-tiny
+    /abricate
+    /mitozEnv
+
+perl-carp
+    /abricate
+    /busco
+    /mitozEnv
+    /p_smg2
+    /p_smgkraken
+
+perl-class-data-inheritable
+    /abricate
+    /mitozEnv
+
+perl-class-load
+    /busco
+
+perl-class-load-xs
+    /busco
+
+perl-class-method-modifiers
+    /busco
+
+perl-clone
+    /mitozEnv
+
+perl-common-sense
+    /abricate
+    /busco
+    /mitozEnv
+    /p_smg2
+    /p_smgkraken
+
+perl-compress-raw-bzip2
+    /abricate
+    /busco
+    /mitozEnv
+    /p_smg2
+    /p_smgkraken
+
+perl-compress-raw-zlib
+    /abricate
+    /busco
+    /mitozEnv
+    /p_smg2
+    /p_smgkraken
+
+perl-config-general
+    /mitozEnv
+    /ont
+    /quast_env
+
+perl-constant
+    /abricate
+    /busco
+    /mitozEnv
+
+perl-cpan-meta-check
+    /busco
+
+perl-cpan-meta-requirements
+    /busco
+
+perl-data-dump
+    /wgs-euk
+
+perl-data-dumper
+    /abricate
+    /mitozEnv
+
+perl-dbi
+    /busco
+
+perl-devel-globaldestruction
+    /busco
+
+perl-devel-overloadinfo
+    /busco
+
+perl-devel-size
+    /wgs-euk
+
+perl-devel-stacktrace
+    /abricate
+    /busco
+    /mitozEnv
+
+perl-digest-hmac
+    /abricate
+    /mitozEnv
+    /p_smgkraken
+    /wgs-euk
+
+perl-digest-md5
+    /abricate
+    /mitozEnv
+
+perl-digest-perl-md5
+    /mitozEnv
+    /ont
+    /quast_env
+
+perl-dist-checkconflicts
+    /busco
+
+perl-encode
+    /abricate
+    /busco
+    /mitozEnv
+    /p_smg2
+    /p_smgkraken
+
+perl-encode-locale
+    /abricate
+    /mitozEnv
+    /p_smgkraken
+    /wgs-euk
+
+perl-eval-closure
+    /busco
+
+perl-exception-class
+    /abricate
+    /mitozEnv
+
+perl-exporter
+    /abricate
+    /busco
+    /mitozEnv
+    /p_smg2
+    /p_smgkraken
+
+perl-exporter-tiny
+    /abricate
+    /busco
+    /mitozEnv
+    /p_smg2
+    /p_smgkraken
+
+perl-file-listing
+    /abricate
+    /mitozEnv
+    /p_smgkraken
+    /wgs-euk
+
+perl-file-slurp-tiny
+    /abricate
+    /mitozEnv
+
+perl-file-sort
+    /abricate
+    /mitozEnv
+
+perl-file-spec
+    /abricate
+    /mitozEnv
+    /p_smgkraken
+    /wgs-euk
+
+perl-font-ttf
+    /mitozEnv
+    /ont
+    /quast_env
+
+perl-gd
+    /mitozEnv
+    /ont
+    /quast_env
+
+perl-getopt-long
+    /abricate
+    /busco
+    /mitozEnv
+
+perl-html-parser
+    /abricate
+    /mitozEnv
+    /p_smgkraken
+    /wgs-euk
+
+perl-html-tagset
+    /abricate
+    /mitozEnv
+    /p_smgkraken
+    /wgs-euk
+
+perl-http-cookiejar-lwp
+    /wgs-euk
+
+perl-http-cookies
+    /abricate
+    /mitozEnv
+    /p_smgkraken
+    /wgs-euk
+
+perl-http-daemon
+    /abricate
+    /mitozEnv
+    /p_smgkraken
+    /wgs-euk
+
+perl-http-date
+    /abricate
+    /mitozEnv
+    /p_smgkraken
+    /wgs-euk
+
+perl-http-message
+    /abricate
+    /mitozEnv
+    /p_smgkraken
+    /wgs-euk
+
+perl-http-negotiate
+    /abricate
+    /mitozEnv
+    /p_smgkraken
+    /wgs-euk
+
+perl-io-compress
+    /abricate
+    /antismash_env
+    /biobakery3
+    /busco
+    /mitozEnv
+    /ont
+    /p_smg2
+    /p_smgkraken
+    /qiime2-amplicon
+    /quast_env
+    /uptodate
+    /virus
+    /wgs-euk
+
+perl-io-html
+    /abricate
+    /mitozEnv
+    /p_smgkraken
+    /wgs-euk
+
+perl-io-socket-ssl
+    /abricate
+    /mitozEnv
+
+perl-io-string
+    /abricate
+    /mitozEnv
+    /ont
+    /quast_env
+
+perl-io-tty
+    /abricate
+    /mitozEnv
+
+perl-io-zlib
+    /abricate
+    /antismash_env
+    /biobakery3
+    /busco
+    /mitozEnv
+    /ont
+    /p_smg2
+    /p_smgkraken
+    /qiime2-amplicon
+    /quast_env
+    /uptodate
+    /virus
+    /wgs-euk
+
+perl-ipc-run
+    /abricate
+    /mitozEnv
+
+perl-json
+    /abricate
+    /antismash_env
+    /biobakery3
+    /busco
+    /mitozEnv
+    /ont
+    /p_smg2
+    /p_smgkraken
+    /qiime2-amplicon
+    /quast_env
+    /uptodate
+    /virus
+    /wgs-euk
+
+perl-json-xs
+    /abricate
+    /antismash_env
+    /biobakery3
+    /busco
+    /mitozEnv
+    /ont
+    /p_smg2
+    /p_smgkraken
+    /qiime2-amplicon
+    /quast_env
+    /uptodate
+    /virus
+    /wgs-euk
+
+perl-libwww-perl
+    /abricate
+    /mitozEnv
+    /p_smgkraken
+    /wgs-euk
+
+perl-libxml-perl
+    /abricate
+    /mitozEnv
+
+perl-list-moreutils
+    /abricate
+    /antismash_env
+    /biobakery3
+    /busco
+    /mitozEnv
+    /ont
+    /p_smg2
+    /p_smgkraken
+    /qiime2-amplicon
+    /quast_env
+    /uptodate
+    /virus
+    /wgs-euk
+
+perl-list-moreutils-xs
+    /abricate
+    /antismash_env
+    /biobakery3
+    /busco
+    /mitozEnv
+    /ont
+    /p_smg2
+    /p_smgkraken
+    /qiime2-amplicon
+    /quast_env
+    /uptodate
+    /virus
+    /wgs-euk
+
+perl-lwp-mediatypes
+    /abricate
+    /mitozEnv
+    /p_smgkraken
+    /wgs-euk
+
+perl-lwp-protocol-https
+    /abricate
+    /p_smgkraken
+    /wgs-euk
+
+perl-lwp-simple
+    /abricate
+
+perl-math-bezier
+    /mitozEnv
+    /ont
+    /quast_env
+
+perl-math-round
+    /mitozEnv
+
+perl-math-vecstat
+    /mitozEnv
+    /ont
+    /quast_env
+
+perl-mime-base64
+    /abricate
+    /mitozEnv
+
+perl-module-implementation
+    /busco
+    /mitozEnv
+
+perl-module-load
+    /wgs-euk
+
+perl-module-metadata
+    /busco
+
+perl-module-runtime
+    /busco
+    /mitozEnv
+
+perl-module-runtime-conflicts
+    /busco
+
+perl-moo
+    /busco
+
+perl-moose
+    /busco
+
+perl-mozilla-ca
+    /abricate
+    /p_smgkraken
+    /wgs-euk
+
+perl-mro-compat
+    /busco
+
+perl-net-http
+    /abricate
+    /mitozEnv
+    /p_smgkraken
+    /wgs-euk
+
+perl-ntlm
+    /abricate
+    /mitozEnv
+    /p_smgkraken
+    /wgs-euk
+
+perl-number-format
+    /mitozEnv
+
+perl-package-deprecationmanager
+    /busco
+
+perl-package-stash
+    /busco
+
+perl-parallel-forkmanager
+    /busco
+
+perl-params-util
+    /busco
+
+perl-params-validate
+    /mitozEnv
+    /ont
+    /quast_env
+
+perl-parent
+    /abricate
+    /busco
+    /mitozEnv
+    /p_smg2
+    /p_smgkraken
+
+perl-path-tiny
+    /abricate
+
+perl-pathtools
+    /abricate
+    /busco
+    /mitozEnv
+    /p_smg2
+    /p_smgkraken
+
+perl-readonly
+    /mitozEnv
+
+perl-regexp-common
+    /mitozEnv
+
+perl-role-tiny
+    /busco
+
+perl-scalar-list-utils
+    /abricate
+    /busco
+    /mitozEnv
+    /p_smg2
+    /p_smgkraken
+
+perl-set-intspan
+    /mitozEnv
+    /ont
+    /quast_env
+
+perl-socket
+    /abricate
+    /mitozEnv
+    /p_smgkraken
+    /wgs-euk
+
+perl-statistics-basic
+    /mitozEnv
+    /ont
+    /quast_env
+
+perl-statistics-descriptive
+    /mitozEnv
+
+perl-storable
+    /busco
+
+perl-sub-exporter
+    /busco
+
+perl-sub-exporter-progressive
+    /busco
+
+perl-sub-identify
+    /busco
+
+perl-sub-install
+    /busco
+
+perl-sub-name
+    /busco
+
+perl-sub-quote
+    /busco
+
+perl-sub-uplevel
+    /abricate
+    /mitozEnv
+
+perl-svg
+    /mitozEnv
+
+perl-test-deep
+    /abricate
+    /mitozEnv
+
+perl-test-differences
+    /abricate
+    /mitozEnv
+
+perl-test-exception
+    /abricate
+    /mitozEnv
+
+perl-test-fatal
+    /busco
+    /mitozEnv
+    /p_smgkraken
+    /wgs-euk
+
+perl-test-most
+    /abricate
+    /mitozEnv
+
+perl-test-requiresinternet
+    /abricate
+    /p_smgkraken
+    /wgs-euk
+
+perl-test-warn
+    /abricate
+    /mitozEnv
+
+perl-text-diff
+    /abricate
+    /mitozEnv
+
+perl-text-format
+    /mitozEnv
+    /ont
+    /quast_env
+
+perl-time-hires
+    /mitozEnv
+    /ont
+    /quast_env
+
+perl-time-local
+    /abricate
+    /mitozEnv
+    /p_smgkraken
+    /wgs-euk
+
+perl-timedate
+    /abricate
+    /mitozEnv
+    /p_smgkraken
+    /wgs-euk
+
+perl-tree-dag_node
+    /abricate
+    /mitozEnv
+
+perl-try-tiny
+    /abricate
+    /busco
+    /mitozEnv
+
+perl-types-serialiser
+    /abricate
+    /antismash_env
+    /biobakery3
+    /busco
+    /mitozEnv
+    /ont
+    /p_smg2
+    /p_smgkraken
+    /qiime2-amplicon
+    /quast_env
+    /uptodate
+    /virus
+    /wgs-euk
+
+perl-uri
+    /abricate
+    /mitozEnv
+
+perl-url-encode
+    /abricate
+    /mitozEnv
+    /p_smgkraken
+    /wgs-euk
+
+perl-version
+    /busco
+
+perl-www-robotrules
+    /abricate
+    /mitozEnv
+    /p_smgkraken
+    /wgs-euk
+
+perl-xml-dom
+    /abricate
+    /mitozEnv
+
+perl-xml-dom-xpath
+    /abricate
+    /mitozEnv
+
+perl-xml-regexp
+    /abricate
+    /mitozEnv
+
+perl-xml-xpathengine
+    /abricate
+    /mitozEnv
+
+perl-yaml
+    /busco
+
+pgenlib
+    /trtools
+
+phanotate
+    /virus
+
+pharokka
+    /virus
+
+phylip
+    /abricate
+
+phylophlan
+    /biobakery3
+    /p_smg2
+
+poa
+    /abricate
+    /mitozEnv
+
+popt
+    /p_smgkraken
+    /run_dbcans
+
+porechop
+    /ont
+
+pp
+    /wgs-euk
+
+pplacer
+    /wgs_prok
+
+prank
+    /abricate
+    /busco
+    /qiime2-amplicon
+
+prinseq
+    /p_smgkraken
+
+probcons
+    /abricate
+
+probconsrna
+    /abricate
+
+prodigal
+    /antismash_env
+    /busco
+    /checkm2
+    /p_ktools
+    /wgs_prok
+
+pyabpoa
+    /ont
+
+pyfaidx
+    /trtools
+
+pyfastaq
+    /ariba_amr
+
+pyhmmer
+    /qiime2-amplicon
+    /run_dbcans
+    /virus
+
+pymummer
+    /ariba_amr
+
+pypolca
+    /ont
+
+pyrodigal
+    /run_dbcans
+    /virus
+
+pyrodigal-gv
+    /virus
+
+pyrodigal-rv
+    /virus
+
+pysam
+    /ariba_amr
+    /biobakery3
+    /ont
+    /p_smg2
+    /run_dbcans
+    /trtools
+
+pyspoa
+    /ont
+
+python-edlib
+    /ont
+
+pyvcf3
+    /trtools
+
+quast
+    /ont
+    /quast_env
+
+racon
+    /ont
+
+raven-assembler
+    /ont
+
+raxml
+    /biobakery3
+    /busco
+    /p_smg2
+    /phylo_env
+    /qiime2-amplicon
+
+recon
+    /wgs-euk
+
+repeatafterme
+    /wgs-euk
+
+repeatmasker
+    /wgs-euk
+
+repeatmodeler
+    /wgs-euk
+
+repeatscout
+    /wgs-euk
+
+rmblast
+    /wgs-euk
+
+rnanorm
+    /qiime2-amplicon
+
+rpsbproc
+    /abricate
+    /biobakery3
+    /busco
+    /mitozEnv
+    /ont
+    /p_smg2
+    /p_smgkraken
+    /qiime2-amplicon
+    /quast_env
+    /virus
+
+ruby
+    /abricate
+
+samtools
+    /ariba_amr
+    /biobakery3
+    /bowtie
+    /busco
+    /fbayes
+    /mirge3_py38
+    /mitozEnv
+    /ont
+    /p_smg2
+    /qiime2-amplicon
+    /run_dbcans
+    /wgs_prok
+
+sap
+    /abricate
+
+scanpy
+    /abricate
+
+sepp
+    /busco
+    /qiime2-amplicon
+
+seqkit
+    /ariba_amr
+    /mitozEnv
+    /qiime2-amplicon
+    /uptodate
+    /wgs_prok
+
+seqlib
+    /ont
+
+snakemake
+    /biobakery3
+    /p_smg2
+    /snakepipe
+
+snakemake-minimal
+    /biobakery3
+    /p_smg2
+    /snakepipe
+
+snpeff
+    /snpeff
+
+snpsift
+    /snpeff
+
+sortmerna
+    /qiime2-amplicon
+
+spades
+    /ariba_amr
+    /mitozEnv
+    /wgs_prok
+
+subread
+    /bowtie
+
+t-coffee
+    /abricate
+    /mitozEnv
+
+tabixpp
+    /fbayes
+
+taxonkit
+    /esearch
+
+tbl2asn
+    /mitozEnv
+
+tesorter
+    /wgs-euk
+
+tmalign
+    /abricate
+
+tolkein
+    /ont
+
+trf
+    /wgs-euk
+
+trim-galore
+    /run_dbcans
+
+trimal
+    /biobakery3
+    /p_smg2
+
+trnascan-se
+    /virus
+
+trtools
+    /trtools
+
+ucsc-fatotwobit
+    /busco
+    /wgs-euk
+
+ucsc-twobitinfo
+    /busco
+    /wgs-euk
+
+ucsc-twobittofa
+    /wgs-euk
+
+unifrac
+    /qiime2-amplicon
+
+unifrac-binaries
+    /qiime2-amplicon
+
+vcflib
+    /fbayes
+    /ont
+
+viennarna
+    /abricate
+    /mirge3_py38
+    /mitozEnv
+
+vsearch
+    /biobakery3
+    /metaxa
+    /p_smgkraken
+    /qiime2-amplicon
+    /uptodate
+
+wfa2-lib
+    /fbayes
+
+wise2
+    /mitozEnv
+
