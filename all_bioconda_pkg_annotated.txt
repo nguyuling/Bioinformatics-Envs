@@ -1,0 +1,1042 @@
+/abricate
+    abricate - abricate: Screening contigs for antimicrobial resistance genes
+    any2fasta - any2fasta: Converts various sequence file formats to FASTA
+    blast - blast: Pairwise local alignment search tool for nucleotide/protein
+    blast-legacy - blast-legacy: Legacy executable versions of NCBI BLAST software
+    clustalo - clustalo: Multiple sequence alignment program for large datasets
+    clustalw - clustalw: Classic multiple alignment program for nucleic/protein sequences
+    consan - consan: Structural RNA comparative sequence alignment package
+    dca - dca: Deep count autoencoder for single-cell RNA-seq denoising
+    dendropy - dendropy: Python library for phylogenetic computing and manipulating trees
+    dialign-tx - dialign-tx: Segment-based multiple sequence alignment algorithm
+    entrez-direct - entrez-direct: Command-line access to NCBI Entrez databases
+    famsa - famsa: Ultrafast multiple sequence alignment tool for proteins
+    kalign2 - kalign2: Fast algorithm for multiple sequence alignment execution
+    kopt - kopt: Optimization engine for sequence alignment graph parameters
+    mafft - mafft: Multiple sequence alignment program for amino/nucleotide sequences
+    munkres - munkres: Hungarian algorithm implementation for bipartite matching problems
+    muscle - muscle: Multiple sequence alignment program for protein and nucleotide
+    mustang - mustang: Structural alignment tool for multiple protein structures
+    ncbi-vdb - ncbi-vdb: Software library for reading NCBI SRA sequence datasets
+    paml - paml: Phylogenetic analysis by maximum likelihood for molecular evolution
+    pasta - pasta: Parallelized multiple sequence alignment for large datasets
+    perl-algorithm-diff - perl-algorithm-diff: Computes differences between two arrays or lists
+    perl-archive-tar - perl-archive-tar: Module for manipulating POSIX tar archive files
+    perl-base - perl-base: Core runtime components for Perl scripting environment
+    perl-bio-asn1-entrezgene - perl-bio-asn1-entrezgene: Parses NCBI Entrez Gene ASN.1 format structures
+    perl-bio-coordinate - perl-bio-coordinate: Coordinates systems mapper for biological sequence features
+    perl-bio-featureio - perl-bio-featureio: Input/output operations for biological feature sequences
+    perl-bio-samtools - perl-bio-samtools: Perl bindings for reading SAM and BAM files
+    perl-bio-searchio-hmmer - perl-bio-searchio-hmmer: Parses HMMER sequence search output formats
+    perl-bio-tools-phylo-paml - perl-bio-tools-phylo-paml: Parses and executes PAML phylogenetics software
+    perl-bio-tools-run-alignment-clustalw - perl-bio-tools-run-alignment-clustalw: Wrapper for executing ClustalW within Perl
+    perl-bio-tools-run-alignment-tcoffee - perl-bio-tools-run-alignment-tcoffee: Wrapper for executing T-Coffee within Perl
+    perl-bioperl - perl-bioperl: Core BioPerl toolkit for biological sequence manipulation
+    perl-bioperl-core - perl-bioperl-core: Core functionality data structures for BioPerl modules
+    perl-bioperl-run - perl-bioperl-run: Wrapper interfaces for executing bioinformatics command-line tools
+    perl-business-isbn - perl-business-isbn: Validates and parses International Standard Book Numbers
+    perl-business-isbn-data - perl-business-isbn-data: Data tables required for Perl ISBN module processing
+    perl-capture-tiny - perl-capture-tiny: Captures STDOUT and STDERR output stream execution
+    perl-carp - perl-carp: Alternative warning and error reporting mechanism in Perl
+    perl-class-data-inheritable - perl-class-data-inheritable: Inheritable class data accessor generator for Perl
+    perl-common-sense - perl-common-sense: Preloads sensible default Perl pragmas and settings
+    perl-compress-raw-bzip2 - perl-compress-raw-bzip2: Low-level Interface to bzip2 compression library
+    perl-compress-raw-zlib - perl-compress-raw-zlib: Low-level interface to zlib compression library
+    perl-constant - perl-constant: Pragmatic module for declaring compile-time constants
+    perl-data-dumper - perl-data-dumper: Stringifies object variables for debugging Perl scripts
+    perl-devel-stacktrace - perl-devel-stacktrace: Stacktrace generator and error handling for Perl
+    perl-digest-hmac - perl-digest-hmac: Keyed-Hashing for Message Authentication routines in Perl
+    perl-digest-md5 - perl-digest-md5: Interface to MD5 message digest algorithm in Perl
+    perl-encode - perl-encode: Character encoding conversion library for Perl strings
+    perl-encode-locale - perl-encode-locale: Determines system encoding settings for Perl input/output
+    perl-exception-class - perl-exception-class: Declares real object-oriented exception classes in Perl
+    perl-exporter - perl-exporter: Implements default import and export methods for modules
+    perl-exporter-tiny - perl-exporter-tiny: Lightweight exporter subclassing alternative for Perl packages
+    perl-file-listing - perl-file-listing: Parses directory listings into structured Perl records
+    perl-file-slurp-tiny - perl-file-slurp-tiny: Fast and simple file read/write operations
+    perl-file-sort - perl-file-sort: Sorts lines of text files from Perl scripts
+    perl-file-spec - perl-file-spec: Portably performs operations on file and path names
+    perl-getopt-long - perl-getopt-long: Advanced command-line option processing parser for Perl
+    perl-html-parser - perl-html-parser: Parsing routines for HTML documents and elements
+    perl-html-tagset - perl-html-tagset: Reference tables for HTML tags and document structures
+    perl-http-cookies - perl-http-cookies: Manages HTTP cookie storage and user sessions
+    perl-http-daemon - perl-http-daemon: Simple HTTP server class for network operations
+    perl-http-date - perl-http-date: Date conversion routines for HTTP protocol formats
+    perl-http-message - perl-http-message: Encapsulates HTTP style request and response messages
+    perl-http-negotiate - perl-http-negotiate: Performs HTTP content negotiation for client request
+    perl-io-compress - perl-io-compress: Base framework for reading/writing compressed data
+    perl-io-html - perl-io-html: Opens HTML files with correct character encoding
+    perl-io-socket-ssl - perl-io-socket-ssl: SSL/TLS encrypted socket communications library for Perl
+    perl-io-string - perl-io-string: Emulates IO file handles using scalar memory strings
+    perl-io-tty - perl-io-tty: Pseudo tty interaction support for Perl processes
+    perl-io-zlib - perl-io-zlib: IO handle interface for reading/writing gzipped files
+    perl-ipc-run - perl-ipc-run: Executes system commands with pipe and stream control
+    perl-json - perl-json: High-level JSON encoder and decoder interface for Perl
+    perl-json-xs - perl-json-xs: Fast C-based JSON encoder and decoder for Perl
+    perl-libwww-perl - perl-libwww-perl: World Wide Web web-client library interface for Perl
+    perl-libxml-perl - perl-libxml-perl: Collection of XML parser helper modules for Perl
+    perl-list-moreutils - perl-list-moreutils: Extended set of list utilities not in List::Util
+    perl-list-moreutils-xs - perl-list-moreutils-xs: C-compiled speed optimizations for List::MoreUtils routines
+    perl-lwp-mediatypes - perl-lwp-mediatypes: Identifies MIME media types by file extensions
+    perl-lwp-protocol-https - perl-lwp-protocol-https: HTTPS protocol support for LWP web requests
+    perl-lwp-simple - perl-lwp-simple: Simple procedural web request interface for Perl scripts
+    perl-mime-base64 - perl-mime-base64: Base64 encoding and decoding library for Perl
+    perl-mozilla-ca - perl-mozilla-ca: Mozilla CA certificate store package for Perl
+    perl-net-http - perl-net-http: Low-level HTTP client connection routines for Perl
+    perl-ntlm - perl-ntlm: NTLM authentication protocol implementation for Perl clients
+    perl-parent - perl-parent: Establishes ISA relationships with base classes at compile-time
+    perl-path-tiny - perl-path-tiny: File path utility module for modern Perl scripts
+    perl-pathtools - perl-pathtools: Portable file spec and directory path operations
+    perl-scalar-list-utils - perl-scalar-list-utils: Selection of general scalar and list manipulation routines
+    perl-socket - perl-socket: Networking constants and conversion functions for system sockets
+    perl-sub-uplevel - perl-sub-uplevel: Executes subroutines as if called higher in stack
+    perl-test-deep - perl-test-deep: Advanced data structure comparison framework for testing
+    perl-test-differences - perl-test-differences: Tests string and data structure differences with diff
+    perl-test-exception - perl-test-exception: Test module for catching exceptions in Perl
+    perl-test-most - perl-test-most: Suite of popular Perl testing tools combined together
+    perl-test-requiresinternet - perl-test-requiresinternet: Skips tests if no internet connection is present
+    perl-test-warn - perl-test-warn: Testing module for checking warnings raised by code
+    perl-text-diff - perl-text-diff: Computes differences between files or text strings
+    perl-time-local - perl-time-local: Converts local and GMT dates into epoch seconds
+    perl-timedate - perl-timedate: Date and time parsing and formatting module suite
+    perl-tree-dag_node - perl-tree-dag_node: Represents directed acyclic graphs and tree structures
+    perl-try-tiny - perl-try-tiny: Minimal try/catch error handling mechanism for Perl
+    perl-types-serialiser - perl-types-serialiser: Simple data types serializer for JSON modules
+    perl-uri - perl-uri: Parses and manipulates URI string objects in Perl
+    perl-url-encode - perl-url-encode: Encoding and decoding utilities for URL query strings
+    perl-www-robotrules - perl-www-robotrules: Parses robots.txt rules for web crawling scripts
+    perl-xml-dom - perl-xml-dom: Builds XML Document Object Model trees in Perl
+    perl-xml-dom-xpath - perl-xml-dom-xpath: Adds XPath support to XML::DOM tree parsers
+    perl-xml-regexp - perl-xml-regexp: Regular expressions for matching XML syntax tokens
+    perl-xml-xpathengine - perl-xml-xpathengine: Re-usable XPath engine for DOM structures in Perl
+    phylip - phylip: Package of programs for inferring phylogenetic trees
+    poa - poa: Partial order alignment for sequence graph alignment
+    prank - prank: Structure-informed multiple sequence alignment algorithm for DNA/protein
+    probcons - probcons: Probabilistic consistency-based multiple sequence alignment tool
+    probconsrna - probconsrna: Probabilistic consistency-based RNA alignment software program
+    rpsbproc - rpsbproc: Post-processor for RPS-BLAST protein domain search results
+    ruby - ruby: Interpreted programming language runtime execution environment
+    sap - sap: Automated phylogenetic annotation of high-throughput sequence reads
+    scanpy - scanpy: Single-cell RNA sequencing analysis toolkit in Python
+    t-coffee - t-coffee: Multiple sequence alignment package for DNA, RNA, and protein
+    tmalign - tmalign: Structural alignment algorithm for measuring protein structure similarity
+    viennarna - viennarna: Prediction and analysis of RNA secondary structure motifs
+
+/antismash_env
+    antismash - antismash: Secondary metabolite biosynthesis gene cluster identification
+    bcbio-gff - bcbio-gff: Parses GFF format genome annotations into Python
+    blast - blast: Pairwise local alignment search tool for nucleotide/protein
+    brawn - brawn: Rapid genome assembly correction and scaffolding tool
+    bx-python - bx-python: Python framework for genomic intervals and alignments
+    diamond - diamond: High-throughput local alignment for protein and translation
+    entrez-direct - entrez-direct: Command-line access to NCBI Entrez databases
+    fasttree - fasttree: Infers approximately-maximum-likelihood phylogenetic trees rapidly
+    helperlibs - helperlibs: Utility helper libraries for bioinformatics pipeline scripts
+    hmmer - hmmer: Profile hidden Markov models for biosequence analysis
+    hmmer2 - hmmer2: Legacy version of profile HMM sequence search tools
+    moods - moods: Motif discovery and position weight matrix scanning tool
+    ncbi-vdb - ncbi-vdb: Software library for reading NCBI SRA sequence datasets
+    nrpys - nrpys: Non-ribosomal peptide synthetase pathway analysis tools
+    perl-archive-tar - perl-archive-tar: Module for manipulating POSIX tar archive files
+    perl-io-compress - perl-io-compress: Base framework for reading/writing compressed data
+    perl-io-zlib - perl-io-zlib: IO handle interface for reading/writing gzipped files
+    perl-json - perl-json: High-level JSON encoder and decoder interface for Perl
+    perl-json-xs - perl-json-xs: Fast C-based JSON encoder and decoder for Perl
+    perl-list-moreutils - perl-list-moreutils: Extended set of list utilities not in List::Util
+    perl-list-moreutils-xs - perl-list-moreutils-xs: C-compiled speed optimizations for List::MoreUtils routines
+    perl-types-serialiser - perl-types-serialiser: Simple data types serializer for JSON modules
+    prodigal - prodigal: Fast prokaryotic protein-coding gene prediction software engine
+
+/ariba_amr
+    ariba - ariba: Identifies resistance genes and variants directly from reads
+    bcftools - bcftools: Variant calling and VCF/BCF file manipulation utility
+    bowtie2 - bowtie2: Fast read aligner for gapped sequencing reads
+    cd-hit - cd-hit: Rapid clustering and comparison of sequence datasets
+    dendropy - dendropy: Python library for phylogenetic computing and manipulating trees
+    htslib - htslib: C library for high-throughput genomic data files
+    mummer - mummer: Rapid alignment of large-scale whole genome sequences
+    munkres - munkres: Hungarian algorithm implementation for bipartite matching problems
+    pyfastaq - pyfastaq: Python library for manipulating FASTA and FASTQ files
+    pymummer - pymummer: Python wrapper for running and parsing MUMmer alignments
+    pysam - pysam: Python wrapper for SAMtools and HTSlib library interface
+    samtools - samtools: Tools for manipulating SAM, BAM, and CRAM files
+    seqkit - seqkit: Ultrafast sequence toolkit for manipulating FASTA/FASTQ files
+    spades - spades: De novo genome assembler for small genomes
+
+/bakta
+
+/biobakery3
+    bcbio-gff - bcbio-gff: Parses GFF format genome annotations into Python
+    blast - blast: Pairwise local alignment search tool for nucleotide/protein
+    blast-legacy - blast-legacy: Legacy executable versions of NCBI BLAST software
+    bowtie2 - bowtie2: Fast read aligner for gapped sequencing reads
+    bx-python - bx-python: Python framework for genomic intervals and alignments
+    cmseq - cmseq: Consensuses sequence calling and variant analysis tool
+    dendropy - dendropy: Python library for phylogenetic computing and manipulating trees
+    diamond - diamond: High-throughput local alignment for protein and translation
+    entrez-direct - entrez-direct: Command-line access to NCBI Entrez databases
+    fasttree - fasttree: Infers approximately-maximum-likelihood phylogenetic trees rapidly
+    hmmer - hmmer: Profile hidden Markov models for biosequence analysis
+    htslib - htslib: C library for high-throughput genomic data files
+    iqtree - iqtree: Efficient phylogenomic software for maximum likelihood trees
+    mash - mash: Genome distance estimation using MinHash k-mer sketches
+    metaphlan - metaphlan: Profiling composition of microbial communities from metagenomes
+    metaxa - metaxa: Identifies and classifies rRNA genes in metagenomes
+    muscle - muscle: Multiple sequence alignment program for protein and nucleotide
+    ncbi-vdb - ncbi-vdb: Software library for reading NCBI SRA sequence datasets
+    perl-archive-tar - perl-archive-tar: Module for manipulating POSIX tar archive files
+    perl-io-compress - perl-io-compress: Base framework for reading/writing compressed data
+    perl-io-zlib - perl-io-zlib: IO handle interface for reading/writing gzipped files
+    perl-json - perl-json: High-level JSON encoder and decoder interface for Perl
+    perl-json-xs - perl-json-xs: Fast C-based JSON encoder and decoder for Perl
+    perl-list-moreutils - perl-list-moreutils: Extended set of list utilities not in List::Util
+    perl-list-moreutils-xs - perl-list-moreutils-xs: C-compiled speed optimizations for List::MoreUtils routines
+    perl-types-serialiser - perl-types-serialiser: Simple data types serializer for JSON modules
+    phylophlan - phylophlan: Accurate phylogenetic profiling of microbial genomes and isolates
+    pysam - pysam: Python wrapper for SAMtools and HTSlib library interface
+    raxml - raxml: Maximum likelihood phylogenetic tree inference software application
+    rpsbproc - rpsbproc: Post-processor for RPS-BLAST protein domain search results
+    samtools - samtools: Tools for manipulating SAM, BAM, and CRAM files
+    snakemake - snakemake: Workflow management system for reproducible data analysis pipelines
+    snakemake-minimal - snakemake-minimal: Lightweight installation version of Snakemake workflow manager
+    trimal - trimal: Tool for automated trimming of multiple sequence alignments
+    vsearch - vsearch: Versatile sequence search, clustering, and chimera detection tool
+
+/bowtie
+    bcftools - bcftools: Variant calling and VCF/BCF file manipulation utility
+    bowtie2 - bowtie2: Fast read aligner for gapped sequencing reads
+    bwa - bwa: Aligning sequencing reads against large reference genomes
+    htslib - htslib: C library for high-throughput genomic data files
+    samtools - samtools: Tools for manipulating SAM, BAM, and CRAM files
+    subread - subread: Aligning high-throughput reads and quantifying genomic features
+
+/busco
+    augustus - augustus: Predicts eukaryotic gene structures in genomic sequences
+    bamtools - bamtools: Command-line toolkit for manipulating BAM alignment files
+    bbmap - bbmap: Alignment, assembly, and sequencing data processing suite
+    blast - blast: Pairwise local alignment search tool for nucleotide/protein
+    busco - busco: Assesses assembly completeness using benchmarked universal orthologs
+    cdbtools - cdbtools: Sequence indexing and retrieval utilities for FASTA
+    checkm2 - checkm2: Machine learning estimation of bacterial genome completeness
+    clustalw - clustalw: Classic multiple alignment program for nucleic/protein sequences
+    dendropy - dendropy: Python library for phylogenetic computing and manipulating trees
+    diamond - diamond: High-throughput local alignment for protein and translation
+    entrez-direct - entrez-direct: Command-line access to NCBI Entrez databases
+    fasttree - fasttree: Infers approximately-maximum-likelihood phylogenetic trees rapidly
+    hmmer - hmmer: Profile hidden Markov models for biosequence analysis
+    htslib - htslib: C library for high-throughput genomic data files
+    metaeuk - metaeuk: Sensitive gene caller for eukaryotic metagenomic contigs
+    miniprot - miniprot: Aligning protein sequences to genomes with splice awareness
+    munkres - munkres: Hungarian algorithm implementation for bipartite matching problems
+    muscle - muscle: Multiple sequence alignment program for protein and nucleotide
+    ncbi-vdb - ncbi-vdb: Software library for reading NCBI SRA sequence datasets
+    pasta - pasta: Parallelized multiple sequence alignment for large datasets
+    perl-apache-test - perl-apache-test: Testing framework for Apache web server Perl modules
+    perl-archive-tar - perl-archive-tar: Module for manipulating POSIX tar archive files
+    perl-base - perl-base: Core runtime components for Perl scripting environment
+    perl-carp - perl-carp: Alternative warning and error reporting mechanism in Perl
+    perl-class-load - perl-class-load: Dynamic loading of Perl classes at runtime
+    perl-class-load-xs - perl-class-load-xs: C implementation for fast Perl class loading
+    perl-class-method-modifiers - perl-class-method-modifiers: Method modifiers for object-oriented Perl execution
+    perl-common-sense - perl-common-sense: Preloads sensible default Perl pragmas and settings
+    perl-compress-raw-bzip2 - perl-compress-raw-bzip2: Low-level Interface to bzip2 compression library
+    perl-compress-raw-zlib - perl-compress-raw-zlib: Low-level interface to zlib compression library
+    perl-constant - perl-constant: Pragmatic module for declaring compile-time constants
+    perl-cpan-meta-check - perl-cpan-meta-check: Verifies requirement compliance of CPAN distributions
+    perl-cpan-meta-requirements - perl-cpan-meta-requirements: Manages CPAN module dependency requirement lists
+    perl-dbi - perl-dbi: Database Interface driver abstraction layer for Perl
+    perl-devel-globaldestruction - perl-devel-globaldestruction: Detects global destruction phase during Perl shutdown
+    perl-devel-overloadinfo - perl-devel-overloadinfo: Inspects overloaded operator properties on Perl objects
+    perl-devel-stacktrace - perl-devel-stacktrace: Stacktrace generator and error handling for Perl
+    perl-dist-checkconflicts - perl-dist-checkconflicts: Declares and checks module dependency version conflicts
+    perl-encode - perl-encode: Character encoding conversion library for Perl strings
+    perl-eval-closure - perl-eval-closure: Safely creates closures from stringified Perl code
+    perl-exporter - perl-exporter: Implements default import and export methods for modules
+    perl-exporter-tiny - perl-exporter-tiny: Lightweight exporter subclassing alternative for Perl packages
+    perl-getopt-long - perl-getopt-long: Advanced command-line option processing parser for Perl
+    perl-io-compress - perl-io-compress: Base framework for reading/writing compressed data
+    perl-io-zlib - perl-io-zlib: IO handle interface for reading/writing gzipped files
+    perl-json - perl-json: High-level JSON encoder and decoder interface for Perl
+    perl-json-xs - perl-json-xs: Fast C-based JSON encoder and decoder for Perl
+    perl-list-moreutils - perl-list-moreutils: Extended set of list utilities not in List::Util
+    perl-list-moreutils-xs - perl-list-moreutils-xs: C-compiled speed optimizations for List::MoreUtils routines
+    perl-module-implementation - perl-module-implementation: Fallback mechanism for selecting XS or pure-Perl
+    perl-module-metadata - perl-module-metadata: Gathers package and version metadata from Perl files
+    perl-module-runtime - perl-module-runtime: Utility functions for dynamically loading Perl modules
+    perl-module-runtime-conflicts - perl-module-runtime-conflicts: Manages version conflict checks for Module::Runtime
+    perl-moo - perl-moo: Minimalist object-oriented system with fast startup times
+    perl-moose - perl-moose: Complete modern object-oriented programming system for Perl
+    perl-mro-compat - perl-mro-compat: Provides modern Method Resolution Order support for Perl
+    perl-package-deprecationmanager - perl-package-deprecationmanager: Manages deprecation warnings for Perl software packages
+    perl-package-stash - perl-package-stash: Routines to safely manipulate Perl package symbol tables
+    perl-parallel-forkmanager - perl-parallel-forkmanager: Parallel process fork management for Perl pipelines
+    perl-params-util - perl-params-util: Validates parameters passed to subroutines in Perl
+    perl-parent - perl-parent: Establishes ISA relationships with base classes at compile-time
+    perl-pathtools - perl-pathtools: Portable file spec and directory path operations
+    perl-role-tiny - perl-role-tiny: Lightweight role composition mechanism for Perl classes
+    perl-scalar-list-utils - perl-scalar-list-utils: Selection of general scalar and list manipulation routines
+    perl-storable - perl-storable: Persistence and serialization mechanism for Perl objects
+    perl-sub-exporter - perl-sub-exporter: Sophisticated exporter utility framework for Perl routines
+    perl-sub-exporter-progressive - perl-sub-exporter-progressive: Lightweight wrapper for progressive Sub::Exporter loading
+    perl-sub-identify - perl-sub-identify: Retrieves source subroutine names and origin locations
+    perl-sub-install - perl-sub-install: Installs subroutines into package symbol tables directly
+    perl-sub-name - perl-sub-name: Assigns names to anonymous subroutine reference objects
+    perl-sub-quote - perl-sub-quote: Compiles efficient inline closures for subroutine wrappers
+    perl-test-fatal - perl-test-fatal: Simple helpers for testing code that throws exceptions
+    perl-try-tiny - perl-try-tiny: Minimal try/catch error handling mechanism for Perl
+    perl-types-serialiser - perl-types-serialiser: Simple data types serializer for JSON modules
+    perl-version - perl-version: Handles version object parsing and comparisons in Perl
+    perl-yaml - perl-yaml: YAML document reader and writer implementation for Perl
+    prank - prank: Structure-informed multiple sequence alignment algorithm for DNA/protein
+    prodigal - prodigal: Fast prokaryotic protein-coding gene prediction software engine
+    raxml - raxml: Maximum likelihood phylogenetic tree inference software application
+    rpsbproc - rpsbproc: Post-processor for RPS-BLAST protein domain search results
+    samtools - samtools: Tools for manipulating SAM, BAM, and CRAM files
+    sepp - sepp: SATe-enabled phylogenetic placement of short sequence reads
+    ucsc-fatotwobit - ucsc-fatotwobit: Converts FASTA formatted sequences into 2bit binary format
+    ucsc-twobitinfo - ucsc-twobitinfo: Displays sequence names and lengths from 2bit files
+
+/checkm2
+    checkm2 - checkm2: Machine learning estimation of bacterial genome completeness
+    diamond - diamond: High-throughput local alignment for protein and translation
+    prodigal - prodigal: Fast prokaryotic protein-coding gene prediction software engine
+
+/diamond_env
+    diamond - diamond: High-throughput local alignment for protein and translation
+
+/esearch
+    entrez-direct - entrez-direct: Command-line access to NCBI Entrez databases
+    taxonkit - taxonkit: Command-line toolkit for NCBI taxonomy database queries
+
+/eukrep-env
+    eukrep - eukrep: Classification of eukaryotic contigs in metagenomic assemblies
+    kpal - kpal: Tool for k-mer profiling and dataset distance metrics
+
+/fbayes
+    freebayes - freebayes: Bayesian haplotype-based genetic variant detector for genomes
+    htslib - htslib: C library for high-throughput genomic data files
+    samtools - samtools: Tools for manipulating SAM, BAM, and CRAM files
+    tabixpp - tabixpp: C++ wrapper library for indexing tab-delimited genomic position files
+    vcflib - vcflib: C++ library and command-line utilities for processing VCF files
+    wfa2-lib - wfa2-lib: Wavefront alignment algorithm C library for sequence alignments
+
+/hipstr
+
+/ksnp
+    jellyfish - jellyfish: Fast k-mer counting software for DNA sequences
+    jemalloc - jemalloc: High-performance memory allocation optimization library
+
+/lefse_env
+    lefse - lefse: High-dimensional biomarker discovery and genomic characterization
+    munkres - munkres: Hungarian algorithm implementation for bipartite matching problems
+
+/mced
+
+/metaxa
+    blast-legacy - blast-legacy: Legacy executable versions of NCBI BLAST software
+    hmmer - hmmer: Profile hidden Markov models for biosequence analysis
+    mafft - mafft: Multiple sequence alignment program for amino/nucleotide sequences
+    metaxa - metaxa: Identifies and classifies rRNA genes in metagenomes
+    vsearch - vsearch: Versatile sequence search, clustering, and chimera detection tool
+
+/mirge3_py38
+    bioconductor-biobase - bioconductor-biobase: Core infrastructure for Bioconductor data structures
+    bioconductor-biocgenerics - bioconductor-biocgenerics: Generic functions for Bioconductor object-oriented programming
+    bioconductor-biocparallel - bioconductor-biocparallel: Parallel processing architecture for genomic analysis
+    bioconductor-data-packages - bioconductor-data-packages: Annotation and experimental data infrastructure packages
+    bioconductor-delayedarray - bioconductor-delayedarray: Delayed operations on array-like genomic datasets
+    bioconductor-deseq2 - bioconductor-deseq2: Differential expression analysis of RNA-seq count data
+    bioconductor-genomeinfodb - bioconductor-genomeinfodb: Utilities for manipulating chromosome and species identifiers
+    bioconductor-genomeinfodbdata - bioconductor-genomeinfodbdata: Taxonomy data files for GenomeInfoDb package
+    bioconductor-genomicranges - bioconductor-genomicranges: Representations for genomic coordinates and overlapping ranges
+    bioconductor-iranges - bioconductor-iranges: Efficient infrastructure for manipulating integer range vectors
+    bioconductor-matrixgenerics - bioconductor-matrixgenerics: Standard row/column summarization methods for matrices
+    bioconductor-s4arrays - bioconductor-s4arrays: Infrastructure for array-like objects in R
+    bioconductor-s4vectors - bioconductor-s4vectors: Core S4 vector classes for biological data
+    bioconductor-sparsearray - bioconductor-sparsearray: Infrastructure for multidimensional sparse array containers
+    bioconductor-summarizedexperiment - bioconductor-summarizedexperiment: Matrix-like container for experimental genomic assays
+    bioconductor-ucsc.utils - bioconductor-ucsc.utils: Low-level utilities for interacting with UCSC databases
+    bioconductor-xvector - bioconductor-xvector: Memory-efficient operations on large character vectors
+    bioconductor-zlibbioc - bioconductor-zlibbioc: Compression library utilities for Bioconductor core packages
+    bowtie - bowtie: Ultrafast short memory-efficient read aligner for genomes
+    cutadapt - cutadapt: Trims adapters and primers from high-throughput sequencing reads
+    dnaio - dnaio: Fast parsing of FASTQ and FASTA sequence formats
+    fastqc - fastqc: Quality control assessment tool for high-throughput sequencing data
+    htslib - htslib: C library for high-throughput genomic data files
+    jq - jq: Command-line JSON processor for parsing structured text
+    mirge3 - mirge3: MicroRNA annotation and small RNA-seq profiling framework
+    munkres - munkres: Hungarian algorithm implementation for bipartite matching problems
+    samtools - samtools: Tools for manipulating SAM, BAM, and CRAM files
+    viennarna - viennarna: Prediction and analysis of RNA secondary structure motifs
+
+/mitozEnv
+    blast - blast: Pairwise local alignment search tool for nucleotide/protein
+    blast-legacy - blast-legacy: Legacy executable versions of NCBI BLAST software
+    bwa - bwa: Aligning sequencing reads against large reference genomes
+    circos - circos: Circular visualization tool for genomic structural data
+    clustalo - clustalo: Multiple sequence alignment program for large datasets
+    clustalw - clustalw: Classic multiple alignment program for nucleic/protein sequences
+    coreutils - coreutils: Essential GNU operating system file and text utilities
+    entrez-direct - entrez-direct: Command-line access to NCBI Entrez databases
+    fastp - fastp: Ultrafast all-in-one FASTQ preprocessor and QC tool
+    hmmer - hmmer: Profile hidden Markov models for biosequence analysis
+    htslib - htslib: C library for high-throughput genomic data files
+    infernal - infernal: Searches DNA databases for RNA structure profile HMMs
+    mafft - mafft: Multiple sequence alignment program for amino/nucleotide sequences
+    megahit - megahit: Ultra-fast single-node metagenomic assembler for short reads
+    mitoz - mitoz
+    muscle - muscle: Multiple sequence alignment program for protein and nucleotide
+    ncbi-vdb - ncbi-vdb: Software library for reading NCBI SRA sequence datasets
+    paml - paml: Phylogenetic analysis by maximum likelihood for molecular evolution
+    perl-algorithm-diff - perl-algorithm-diff: Computes differences between two arrays or lists
+    perl-archive-tar - perl-archive-tar: Module for manipulating POSIX tar archive files
+    perl-base - perl-base: Core runtime components for Perl scripting environment
+    perl-bio-asn1-entrezgene - perl-bio-asn1-entrezgene: Parses NCBI Entrez Gene ASN.1 format structures
+    perl-bio-coordinate - perl-bio-coordinate: Coordinates systems mapper for biological sequence features
+    perl-bio-featureio - perl-bio-featureio: Input/output operations for biological feature sequences
+    perl-bio-samtools - perl-bio-samtools: Perl bindings for reading SAM and BAM files
+    perl-bio-searchio-hmmer - perl-bio-searchio-hmmer: Parses HMMER sequence search output formats
+    perl-bio-tools-phylo-paml - perl-bio-tools-phylo-paml: Parses and executes PAML phylogenetics software
+    perl-bio-tools-run-alignment-clustalw - perl-bio-tools-run-alignment-clustalw: Wrapper for executing ClustalW within Perl
+    perl-bio-tools-run-alignment-tcoffee - perl-bio-tools-run-alignment-tcoffee: Wrapper for executing T-Coffee within Perl
+    perl-bioperl - perl-bioperl: Core BioPerl toolkit for biological sequence manipulation
+    perl-bioperl-core - perl-bioperl-core: Core functionality data structures for BioPerl modules
+    perl-bioperl-run - perl-bioperl-run: Wrapper interfaces for executing bioinformatics command-line tools
+    perl-business-isbn - perl-business-isbn: Validates and parses International Standard Book Numbers
+    perl-business-isbn-data - perl-business-isbn-data: Data tables required for Perl ISBN module processing
+    perl-capture-tiny - perl-capture-tiny: Captures STDOUT and STDERR output stream execution
+    perl-carp - perl-carp: Alternative warning and error reporting mechanism in Perl
+    perl-class-data-inheritable - perl-class-data-inheritable: Inheritable class data accessor generator for Perl
+    perl-clone - perl-clone: Recursively copy Perl data structures in memory
+    perl-common-sense - perl-common-sense: Preloads sensible default Perl pragmas and settings
+    perl-compress-raw-bzip2 - perl-compress-raw-bzip2: Low-level Interface to bzip2 compression library
+    perl-compress-raw-zlib - perl-compress-raw-zlib: Low-level interface to zlib compression library
+    perl-config-general - perl-config-general: Generic configuration file parser for Perl scripts
+    perl-constant - perl-constant: Pragmatic module for declaring compile-time constants
+    perl-data-dumper - perl-data-dumper: Stringifies object variables for debugging Perl scripts
+    perl-devel-stacktrace - perl-devel-stacktrace: Stacktrace generator and error handling for Perl
+    perl-digest-hmac - perl-digest-hmac: Keyed-Hashing for Message Authentication routines in Perl
+    perl-digest-md5 - perl-digest-md5: Interface to MD5 message digest algorithm in Perl
+    perl-digest-perl-md5 - perl-digest-perl-md5: Pure Perl implementation of MD5 hash algorithm
+    perl-encode - perl-encode: Character encoding conversion library for Perl strings
+    perl-encode-locale - perl-encode-locale: Determines system encoding settings for Perl input/output
+    perl-exception-class - perl-exception-class: Declares real object-oriented exception classes in Perl
+    perl-exporter - perl-exporter: Implements default import and export methods for modules
+    perl-exporter-tiny - perl-exporter-tiny: Lightweight exporter subclassing alternative for Perl packages
+    perl-file-listing - perl-file-listing: Parses directory listings into structured Perl records
+    perl-file-slurp-tiny - perl-file-slurp-tiny: Fast and simple file read/write operations
+    perl-file-sort - perl-file-sort: Sorts lines of text files from Perl scripts
+    perl-file-spec - perl-file-spec: Portably performs operations on file and path names
+    perl-font-ttf - perl-font-ttf: Reads and parses TrueType font structures in Perl
+    perl-gd - perl-gd: Interface to GD graphics library for drawing images
+    perl-getopt-long - perl-getopt-long: Advanced command-line option processing parser for Perl
+    perl-html-parser - perl-html-parser: Parsing routines for HTML documents and elements
+    perl-html-tagset - perl-html-tagset: Reference tables for HTML tags and document structures
+    perl-http-cookies - perl-http-cookies: Manages HTTP cookie storage and user sessions
+    perl-http-daemon - perl-http-daemon: Simple HTTP server class for network operations
+    perl-http-date - perl-http-date: Date conversion routines for HTTP protocol formats
+    perl-http-message - perl-http-message: Encapsulates HTTP style request and response messages
+    perl-http-negotiate - perl-http-negotiate: Performs HTTP content negotiation for client request
+    perl-io-compress - perl-io-compress: Base framework for reading/writing compressed data
+    perl-io-html - perl-io-html: Opens HTML files with correct character encoding
+    perl-io-socket-ssl - perl-io-socket-ssl: SSL/TLS encrypted socket communications library for Perl
+    perl-io-string - perl-io-string: Emulates IO file handles using scalar memory strings
+    perl-io-tty - perl-io-tty: Pseudo tty interaction support for Perl processes
+    perl-io-zlib - perl-io-zlib: IO handle interface for reading/writing gzipped files
+    perl-ipc-run - perl-ipc-run: Executes system commands with pipe and stream control
+    perl-json - perl-json: High-level JSON encoder and decoder interface for Perl
+    perl-json-xs - perl-json-xs: Fast C-based JSON encoder and decoder for Perl
+    perl-libwww-perl - perl-libwww-perl: World Wide Web web-client library interface for Perl
+    perl-libxml-perl - perl-libxml-perl: Collection of XML parser helper modules for Perl
+    perl-list-moreutils - perl-list-moreutils: Extended set of list utilities not in List::Util
+    perl-list-moreutils-xs - perl-list-moreutils-xs: C-compiled speed optimizations for List::MoreUtils routines
+    perl-lwp-mediatypes - perl-lwp-mediatypes: Identifies MIME media types by file extensions
+    perl-math-bezier - perl-math-bezier: Calculates Bezier curve coordinates for graphics routines
+    perl-math-round - perl-math-round: Rounding numbers utility routines for Perl math
+    perl-math-vecstat - perl-math-vecstat: Vector statistics calculator module for numeric arrays
+    perl-mime-base64 - perl-mime-base64: Base64 encoding and decoding library for Perl
+    perl-module-implementation - perl-module-implementation: Fallback mechanism for selecting XS or pure-Perl
+    perl-module-runtime - perl-module-runtime: Utility functions for dynamically loading Perl modules
+    perl-net-http - perl-net-http: Low-level HTTP client connection routines for Perl
+    perl-ntlm - perl-ntlm: NTLM authentication protocol implementation for Perl clients
+    perl-number-format - perl-number-format: Formats numbers, money, and percentages for output
+    perl-params-validate - perl-params-validate: Advanced parameter validation tool for subroutines
+    perl-parent - perl-parent: Establishes ISA relationships with base classes at compile-time
+    perl-pathtools - perl-pathtools: Portable file spec and directory path operations
+    perl-readonly - perl-readonly: Creates read-only scalars, arrays, and hashes in Perl
+    perl-regexp-common - perl-regexp-common: Collection of commonly used pre-compiled regular expressions
+    perl-scalar-list-utils - perl-scalar-list-utils: Selection of general scalar and list manipulation routines
+    perl-set-intspan - perl-set-intspan: Manages sets of integers and genomic intervals
+    perl-socket - perl-socket: Networking constants and conversion functions for system sockets
+    perl-statistics-basic - perl-statistics-basic: Basic statistical calculations like mean and variance
+    perl-statistics-descriptive - perl-statistics-descriptive: Descriptive statistical analysis modules for data collections
+    perl-sub-uplevel - perl-sub-uplevel: Executes subroutines as if called higher in stack
+    perl-svg - perl-svg: Generates scalable vector graphics (SVG) in Perl
+    perl-test-deep - perl-test-deep: Advanced data structure comparison framework for testing
+    perl-test-differences - perl-test-differences: Tests string and data structure differences with diff
+    perl-test-exception - perl-test-exception: Test module for catching exceptions in Perl
+    perl-test-fatal - perl-test-fatal: Simple helpers for testing code that throws exceptions
+    perl-test-most - perl-test-most: Suite of popular Perl testing tools combined together
+    perl-test-warn - perl-test-warn: Testing module for checking warnings raised by code
+    perl-text-diff - perl-text-diff: Computes differences between files or text strings
+    perl-text-format - perl-text-format: Text wrapping, alignment, and formatting module for Perl
+    perl-time-hires - perl-time-hires: High-resolution alarm, sleep, and time measurements
+    perl-time-local - perl-time-local: Converts local and GMT dates into epoch seconds
+    perl-timedate - perl-timedate: Date and time parsing and formatting module suite
+    perl-tree-dag_node - perl-tree-dag_node: Represents directed acyclic graphs and tree structures
+    perl-try-tiny - perl-try-tiny: Minimal try/catch error handling mechanism for Perl
+    perl-types-serialiser - perl-types-serialiser: Simple data types serializer for JSON modules
+    perl-uri - perl-uri: Parses and manipulates URI string objects in Perl
+    perl-url-encode - perl-url-encode: Encoding and decoding utilities for URL query strings
+    perl-www-robotrules - perl-www-robotrules: Parses robots.txt rules for web crawling scripts
+    perl-xml-dom - perl-xml-dom: Builds XML Document Object Model trees in Perl
+    perl-xml-dom-xpath - perl-xml-dom-xpath: Adds XPath support to XML::DOM tree parsers
+    perl-xml-regexp - perl-xml-regexp: Regular expressions for matching XML syntax tokens
+    perl-xml-xpathengine - perl-xml-xpathengine: Re-usable XPath engine for DOM structures in Perl
+    poa - poa: Partial order alignment for sequence graph alignment
+    rpsbproc - rpsbproc: Post-processor for RPS-BLAST protein domain search results
+    samtools - samtools: Tools for manipulating SAM, BAM, and CRAM files
+    seqkit - seqkit: Ultrafast sequence toolkit for manipulating FASTA/FASTQ files
+    spades - spades: De novo genome assembler for small genomes
+    t-coffee - t-coffee: Multiple sequence alignment package for DNA, RNA, and protein
+    tbl2asn - tbl2asn: Converts sequence annotated table files to GenBank format
+    viennarna - viennarna: Prediction and analysis of RNA secondary structure motifs
+    wise2 - wise2: DNA and protein sequence comparison algorithm using alignment
+
+/multiqc_env
+    fastqc - fastqc: Quality control assessment tool for high-throughput sequencing data
+    multiqc - multiqc: Aggregate bioinformatics analysis reports into single report
+
+/ncbi_datasets
+
+/ont
+    bcftools - bcftools: Variant calling and VCF/BCF file manipulation utility
+    bedtools - bedtools: Performs genomic interval arithmetic and feature intersections
+    blast - blast: Pairwise local alignment search tool for nucleotide/protein
+    blobtk - blobtk: Processing toolkit for genome assembly quality assessments
+    blobtoolkit - blobtoolkit: Interactive visualization and assessment of genome assemblies
+    bwa - bwa: Aligning sequencing reads against large reference genomes
+    circos - circos: Circular visualization tool for genomic structural data
+    entrez-direct - entrez-direct: Command-line access to NCBI Entrez databases
+    fastahack - fastahack: Command-line tool for indexing and extracting FASTA sequences
+    filtlong - filtlong: Quality-filtering tool for long reads like Nanopore/PacBio
+    flye - flye: De novo assembler for single-molecule long-read data
+    freebayes - freebayes: Bayesian haplotype-based genetic variant detector for genomes
+    glimmerhmm - glimmerhmm: Gene finder based on Hidden Markov Models
+    htslib - htslib: C library for high-throughput genomic data files
+    k8 - k8: Lightweight JavaScript engine used by bioinformatics tools
+    mappy - mappy: Python bindings for Minimap2 sequence alignment engine
+    medaka - medaka: Sequence consensus and variant caller for Oxford Nanopore
+    merqury - merqury: K-mer based genome assembly evaluation and assessment
+    meryl - meryl: K-mer counting and manipulation tool for assembly evaluation
+    minimap2 - minimap2: Versatile pairwise aligner for long reads and assemblies
+    nanoget - nanoget: Extracts summary statistics from Oxford Nanopore sequencing reads
+    nanoplot - nanoplot: Plotting tool for long-read Oxford Nanopore sequencing analysis
+    ncbi-vdb - ncbi-vdb: Software library for reading NCBI SRA sequence datasets
+    nextpolish - nextpolish: Fast genome assembly polishing tool using long/short reads
+    ont-fast5-api - ont-fast5-api: Reading and writing Oxford Nanopore FAST5 files
+    parasail-python - parasail-python: Vectorized pairwise sequence alignment bindings for Python
+    perl-archive-tar - perl-archive-tar: Module for manipulating POSIX tar archive files
+    perl-config-general - perl-config-general: Generic configuration file parser for Perl scripts
+    perl-digest-perl-md5 - perl-digest-perl-md5: Pure Perl implementation of MD5 hash algorithm
+    perl-font-ttf - perl-font-ttf: Reads and parses TrueType font structures in Perl
+    perl-gd - perl-gd: Interface to GD graphics library for drawing images
+    perl-io-compress - perl-io-compress: Base framework for reading/writing compressed data
+    perl-io-string - perl-io-string: Emulates IO file handles using scalar memory strings
+    perl-io-zlib - perl-io-zlib: IO handle interface for reading/writing gzipped files
+    perl-json - perl-json: High-level JSON encoder and decoder interface for Perl
+    perl-json-xs - perl-json-xs: Fast C-based JSON encoder and decoder for Perl
+    perl-list-moreutils - perl-list-moreutils: Extended set of list utilities not in List::Util
+    perl-list-moreutils-xs - perl-list-moreutils-xs: C-compiled speed optimizations for List::MoreUtils routines
+    perl-math-bezier - perl-math-bezier: Calculates Bezier curve coordinates for graphics routines
+    perl-math-vecstat - perl-math-vecstat: Vector statistics calculator module for numeric arrays
+    perl-params-validate - perl-params-validate: Advanced parameter validation tool for subroutines
+    perl-set-intspan - perl-set-intspan: Manages sets of integers and genomic intervals
+    perl-statistics-basic - perl-statistics-basic: Basic statistical calculations like mean and variance
+    perl-text-format - perl-text-format: Text wrapping, alignment, and formatting module for Perl
+    perl-time-hires - perl-time-hires: High-resolution alarm, sleep, and time measurements
+    perl-types-serialiser - perl-types-serialiser: Simple data types serializer for JSON modules
+    porechop - porechop: Adapters and chimeric reads trimmer for Oxford Nanopore
+    pyabpoa - pyabpoa: Python interface to SIMD-accelerated partial order aligner
+    pypolca - pypolca: Python implementation of POLCA genome polishing tool
+    pysam - pysam: Python wrapper for SAMtools and HTSlib library interface
+    pyspoa - pyspoa: Python bindings for partial order sequence alignment library
+    python-edlib - python-edlib: Python wrapper for fast C-based edit distance library
+    quast - quast: Evaluates genome assemblies using key quality metrics
+    racon - racon: Ultrafast consensus module for raw long-read genome assembly
+    raven-assembler - raven-assembler: De novo assembly tool for long reads
+    rpsbproc - rpsbproc: Post-processor for RPS-BLAST protein domain search results
+    samtools - samtools: Tools for manipulating SAM, BAM, and CRAM files
+    seqlib - seqlib: C++ interface for sequence alignment and genomic formats
+    tolkein - tolkein: Helper library for structural biology and genomics data
+    vcflib - vcflib: C++ library and command-line utilities for processing VCF files
+
+/p_ktools
+    diamond - diamond: High-throughput local alignment for protein and translation
+    easel - easel: C sequence processing library used by HMMER software
+    eggnog-mapper - eggnog-mapper: Fast functional annotation of novel biological sequences
+    entrez-direct - entrez-direct: Command-line access to NCBI Entrez databases
+    hmmer - hmmer: Profile hidden Markov models for biosequence analysis
+    kraken-biom - kraken-biom: Converts Kraken taxonomic classification outputs to BIOM
+    krakentools - krakentools: Post-processing script collection for Kraken2 taxonomy analysis
+    krona - krona: Interactive metagenomic composition visualization tool
+    mmseqs2 - mmseqs2: Fast search and clustering suite for huge protein/nucleotide databases
+    prodigal - prodigal: Fast prokaryotic protein-coding gene prediction software engine
+
+/p_smg2
+    bioconductor-biobase - bioconductor-biobase: Core infrastructure for Bioconductor data structures
+    bioconductor-biocgenerics - bioconductor-biocgenerics: Generic functions for Bioconductor object-oriented programming
+    bioconductor-biomformat - bioconductor-biomformat: Interface for reading BIOM format biological data
+    bioconductor-biostrings - bioconductor-biostrings: Efficient string manipulation and biological sequence representation
+    bioconductor-data-packages - bioconductor-data-packages: Annotation and experimental data infrastructure packages
+    bioconductor-genomeinfodb - bioconductor-genomeinfodb: Utilities for manipulating chromosome and species identifiers
+    bioconductor-iranges - bioconductor-iranges: Efficient infrastructure for manipulating integer range vectors
+    bioconductor-microbiome - bioconductor-microbiome: Microbiome profiling, analysis, and exploration tools
+    bioconductor-multtest - bioconductor-multtest: Multiple hypothesis testing procedures and p-value corrections
+    bioconductor-phyloseq - bioconductor-phyloseq: Microbiome census data handling and statistical graphics
+    bioconductor-rhdf5 - bioconductor-rhdf5: R interface to the HDF5 binary library
+    bioconductor-rhdf5filters - bioconductor-rhdf5filters: Compression filters for HDF5 biological data files
+    bioconductor-rhdf5lib - bioconductor-rhdf5lib: C library dependencies for HDF5 file access
+    bioconductor-s4vectors - bioconductor-s4vectors: Core S4 vector classes for biological data
+    bioconductor-xvector - bioconductor-xvector: Memory-efficient operations on large character vectors
+    bioconductor-zlibbioc - bioconductor-zlibbioc: Compression library utilities for Bioconductor core packages
+    blast - blast: Pairwise local alignment search tool for nucleotide/protein
+    bowtie2 - bowtie2: Fast read aligner for gapped sequencing reads
+    bwa - bwa: Aligning sequencing reads against large reference genomes
+    dendropy - dendropy: Python library for phylogenetic computing and manipulating trees
+    diamond - diamond: High-throughput local alignment for protein and translation
+    entrez-direct - entrez-direct: Command-line access to NCBI Entrez databases
+    fastp - fastp: Ultrafast all-in-one FASTQ preprocessor and QC tool
+    fastqc - fastqc: Quality control assessment tool for high-throughput sequencing data
+    fasttree - fasttree: Infers approximately-maximum-likelihood phylogenetic trees rapidly
+    hclust2 - hclust2: Hierarchical clustering and heatmap generator for microbial data
+    htslib - htslib: C library for high-throughput genomic data files
+    iqtree - iqtree: Efficient phylogenomic software for maximum likelihood trees
+    jq - jq: Command-line JSON processor for parsing structured text
+    mafft - mafft: Multiple sequence alignment program for amino/nucleotide sequences
+    mash - mash: Genome distance estimation using MinHash k-mer sketches
+    megahit - megahit: Ultra-fast single-node metagenomic assembler for short reads
+    metaphlan - metaphlan: Profiling composition of microbial communities from metagenomes
+    multiqc - multiqc: Aggregate bioinformatics analysis reports into single report
+    munkres - munkres: Hungarian algorithm implementation for bipartite matching problems
+    muscle - muscle: Multiple sequence alignment program for protein and nucleotide
+    ncbi-vdb - ncbi-vdb: Software library for reading NCBI SRA sequence datasets
+    perl-archive-tar - perl-archive-tar: Module for manipulating POSIX tar archive files
+    perl-carp - perl-carp: Alternative warning and error reporting mechanism in Perl
+    perl-common-sense - perl-common-sense: Preloads sensible default Perl pragmas and settings
+    perl-compress-raw-bzip2 - perl-compress-raw-bzip2: Low-level Interface to bzip2 compression library
+    perl-compress-raw-zlib - perl-compress-raw-zlib: Low-level interface to zlib compression library
+    perl-encode - perl-encode: Character encoding conversion library for Perl strings
+    perl-exporter - perl-exporter: Implements default import and export methods for modules
+    perl-exporter-tiny - perl-exporter-tiny: Lightweight exporter subclassing alternative for Perl packages
+    perl-io-compress - perl-io-compress: Base framework for reading/writing compressed data
+    perl-io-zlib - perl-io-zlib: IO handle interface for reading/writing gzipped files
+    perl-json - perl-json: High-level JSON encoder and decoder interface for Perl
+    perl-json-xs - perl-json-xs: Fast C-based JSON encoder and decoder for Perl
+    perl-list-moreutils - perl-list-moreutils: Extended set of list utilities not in List::Util
+    perl-list-moreutils-xs - perl-list-moreutils-xs: C-compiled speed optimizations for List::MoreUtils routines
+    perl-parent - perl-parent: Establishes ISA relationships with base classes at compile-time
+    perl-pathtools - perl-pathtools: Portable file spec and directory path operations
+    perl-scalar-list-utils - perl-scalar-list-utils: Selection of general scalar and list manipulation routines
+    perl-types-serialiser - perl-types-serialiser: Simple data types serializer for JSON modules
+    phylophlan - phylophlan: Accurate phylogenetic profiling of microbial genomes and isolates
+    pysam - pysam: Python wrapper for SAMtools and HTSlib library interface
+    raxml - raxml: Maximum likelihood phylogenetic tree inference software application
+    rpsbproc - rpsbproc: Post-processor for RPS-BLAST protein domain search results
+    samtools - samtools: Tools for manipulating SAM, BAM, and CRAM files
+    snakemake - snakemake: Workflow management system for reproducible data analysis pipelines
+    snakemake-minimal - snakemake-minimal: Lightweight installation version of Snakemake workflow manager
+    trimal - trimal: Tool for automated trimming of multiple sequence alignments
+
+/p_smgkraken
+    blast - blast: Pairwise local alignment search tool for nucleotide/protein
+    bracken - bracken: Abundance estimation for metagenomic taxonomy classification
+    entrez-direct - entrez-direct: Command-line access to NCBI Entrez databases
+    kmer-jellyfish - kmer-jellyfish: Counting k-mers in sequencing reads using Jellyfish
+    kraken2 - kraken2: Taxonomic classification system using exact k-mer matches
+    krakenuniq - krakenuniq: Metagenomic taxonomic classification with sequence coverage estimation
+    ncbi-vdb - ncbi-vdb: Software library for reading NCBI SRA sequence datasets
+    perl-archive-tar - perl-archive-tar: Module for manipulating POSIX tar archive files
+    perl-carp - perl-carp: Alternative warning and error reporting mechanism in Perl
+    perl-common-sense - perl-common-sense: Preloads sensible default Perl pragmas and settings
+    perl-compress-raw-bzip2 - perl-compress-raw-bzip2: Low-level Interface to bzip2 compression library
+    perl-compress-raw-zlib - perl-compress-raw-zlib: Low-level interface to zlib compression library
+    perl-digest-hmac - perl-digest-hmac: Keyed-Hashing for Message Authentication routines in Perl
+    perl-encode - perl-encode: Character encoding conversion library for Perl strings
+    perl-encode-locale - perl-encode-locale: Determines system encoding settings for Perl input/output
+    perl-exporter - perl-exporter: Implements default import and export methods for modules
+    perl-exporter-tiny - perl-exporter-tiny: Lightweight exporter subclassing alternative for Perl packages
+    perl-file-listing - perl-file-listing: Parses directory listings into structured Perl records
+    perl-file-spec - perl-file-spec: Portably performs operations on file and path names
+    perl-html-parser - perl-html-parser: Parsing routines for HTML documents and elements
+    perl-html-tagset - perl-html-tagset: Reference tables for HTML tags and document structures
+    perl-http-cookies - perl-http-cookies: Manages HTTP cookie storage and user sessions
+    perl-http-daemon - perl-http-daemon: Simple HTTP server class for network operations
+    perl-http-date - perl-http-date: Date conversion routines for HTTP protocol formats
+    perl-http-message - perl-http-message: Encapsulates HTTP style request and response messages
+    perl-http-negotiate - perl-http-negotiate: Performs HTTP content negotiation for client request
+    perl-io-compress - perl-io-compress: Base framework for reading/writing compressed data
+    perl-io-html - perl-io-html: Opens HTML files with correct character encoding
+    perl-io-zlib - perl-io-zlib: IO handle interface for reading/writing gzipped files
+    perl-json - perl-json: High-level JSON encoder and decoder interface for Perl
+    perl-json-xs - perl-json-xs: Fast C-based JSON encoder and decoder for Perl
+    perl-libwww-perl - perl-libwww-perl: World Wide Web web-client library interface for Perl
+    perl-list-moreutils - perl-list-moreutils: Extended set of list utilities not in List::Util
+    perl-list-moreutils-xs - perl-list-moreutils-xs: C-compiled speed optimizations for List::MoreUtils routines
+    perl-lwp-mediatypes - perl-lwp-mediatypes: Identifies MIME media types by file extensions
+    perl-lwp-protocol-https - perl-lwp-protocol-https: HTTPS protocol support for LWP web requests
+    perl-mozilla-ca - perl-mozilla-ca: Mozilla CA certificate store package for Perl
+    perl-net-http - perl-net-http: Low-level HTTP client connection routines for Perl
+    perl-ntlm - perl-ntlm: NTLM authentication protocol implementation for Perl clients
+    perl-parent - perl-parent: Establishes ISA relationships with base classes at compile-time
+    perl-pathtools - perl-pathtools: Portable file spec and directory path operations
+    perl-scalar-list-utils - perl-scalar-list-utils: Selection of general scalar and list manipulation routines
+    perl-socket - perl-socket: Networking constants and conversion functions for system sockets
+    perl-test-fatal - perl-test-fatal: Simple helpers for testing code that throws exceptions
+    perl-test-requiresinternet - perl-test-requiresinternet: Skips tests if no internet connection is present
+    perl-time-local - perl-time-local: Converts local and GMT dates into epoch seconds
+    perl-timedate - perl-timedate: Date and time parsing and formatting module suite
+    perl-types-serialiser - perl-types-serialiser: Simple data types serializer for JSON modules
+    perl-url-encode - perl-url-encode: Encoding and decoding utilities for URL query strings
+    perl-www-robotrules - perl-www-robotrules: Parses robots.txt rules for web crawling scripts
+    popt - popt: Command-line option parsing C library for software tools
+    prinseq - prinseq: Quality control and filtering for high-throughput sequence data
+    rpsbproc - rpsbproc: Post-processor for RPS-BLAST protein domain search results
+    vsearch - vsearch: Versatile sequence search, clustering, and chimera detection tool
+
+/phylo_env
+    clustalw - clustalw: Classic multiple alignment program for nucleic/protein sequences
+    fasttree - fasttree: Infers approximately-maximum-likelihood phylogenetic trees rapidly
+    iqtree - iqtree: Efficient phylogenomic software for maximum likelihood trees
+    muscle - muscle: Multiple sequence alignment program for protein and nucleotide
+    raxml - raxml: Maximum likelihood phylogenetic tree inference software application
+
+/py38
+
+/qiime2-amplicon
+    bioconductor-ancombc - bioconductor-ancombc: Differential abundance analysis for microbiome data
+    bioconductor-beachmat - bioconductor-beachmat: C++ API for accessing single-cell matrix data
+    bioconductor-biobase - bioconductor-biobase: Core infrastructure for Bioconductor data structures
+    bioconductor-biocbaseutils - bioconductor-biocbaseutils: Utility functions for Bioconductor core packages
+    bioconductor-biocgenerics - bioconductor-biocgenerics: Generic functions for Bioconductor object-oriented programming
+    bioconductor-biocneighbors - bioconductor-biocneighbors: Nearest neighbor detection methods for biological data
+    bioconductor-biocparallel - bioconductor-biocparallel: Parallel processing architecture for genomic analysis
+    bioconductor-biocsingular - bioconductor-biocsingular: Singular value decomposition and PCA algorithms
+    bioconductor-biomformat - bioconductor-biomformat: Interface for reading BIOM format biological data
+    bioconductor-biostrings - bioconductor-biostrings: Efficient string manipulation and biological sequence representation
+    bioconductor-bluster - bioconductor-bluster: Clustering algorithms for single-cell data analysis
+    bioconductor-dada2 - bioconductor-dada2: Sample inference and profiling of amplicon data
+    bioconductor-data-packages - bioconductor-data-packages: Annotation and experimental data infrastructure packages
+    bioconductor-decipher - bioconductor-decipher: Sequence alignment and database management utilities
+    bioconductor-decontam - bioconductor-decontam: Identifies contamination in marker gene sequence data
+    bioconductor-delayedarray - bioconductor-delayedarray: Delayed operations on array-like genomic datasets
+    bioconductor-delayedmatrixstats - bioconductor-delayedmatrixstats: Row and column statistics for DelayedMatrix objects
+    bioconductor-dirichletmultinomial - bioconductor-dirichletmultinomial: Dirichlet-multinomial models for microbiome analysis
+    bioconductor-genomeinfodb - bioconductor-genomeinfodb: Utilities for manipulating chromosome and species identifiers
+    bioconductor-genomeinfodbdata - bioconductor-genomeinfodbdata: Taxonomy data files for GenomeInfoDb package
+    bioconductor-genomicalignments - bioconductor-genomicalignments: Representation and manipulation of genomic sequence alignments
+    bioconductor-genomicranges - bioconductor-genomicranges: Representations for genomic coordinates and overlapping ranges
+    bioconductor-iranges - bioconductor-iranges: Efficient infrastructure for manipulating integer range vectors
+    bioconductor-matrixgenerics - bioconductor-matrixgenerics: Standard row/column summarization methods for matrices
+    bioconductor-mia - bioconductor-mia: Microbiome analysis tools and data representations
+    bioconductor-microbiome - bioconductor-microbiome: Microbiome profiling, analysis, and exploration tools
+    bioconductor-multiassayexperiment - bioconductor-multiassayexperiment: Integrates multiple genomic assays into single containers
+    bioconductor-multtest - bioconductor-multtest: Multiple hypothesis testing procedures and p-value corrections
+    bioconductor-phyloseq - bioconductor-phyloseq: Microbiome census data handling and statistical graphics
+    bioconductor-rhdf5 - bioconductor-rhdf5: R interface to the HDF5 binary library
+    bioconductor-rhdf5filters - bioconductor-rhdf5filters: Compression filters for HDF5 biological data files
+    bioconductor-rhdf5lib - bioconductor-rhdf5lib: C library dependencies for HDF5 file access
+    bioconductor-rhtslib - bioconductor-rhtslib: Embedded C HTSlib for SAM/BAM file access
+    bioconductor-rsamtools - bioconductor-rsamtools: Interface to SAMtools, BCFtools, and Tabix utilities
+    bioconductor-s4arrays - bioconductor-s4arrays: Infrastructure for array-like objects in R
+    bioconductor-s4vectors - bioconductor-s4vectors: Core S4 vector classes for biological data
+    bioconductor-scaledmatrix - bioconductor-scaledmatrix: Memory-efficient scaling and centering of sparse matrices
+    bioconductor-scater - bioconductor-scater: Quality control and visualization for single-cell data
+    bioconductor-scuttle - bioconductor-scuttle: Basic utilities for single-cell RNA-seq processing
+    bioconductor-shortread - bioconductor-shortread: Processing and quality control of FASTQ files
+    bioconductor-singlecellexperiment - bioconductor-singlecellexperiment: Standard data container for single-cell assay data
+    bioconductor-sparsearray - bioconductor-sparsearray: Infrastructure for multidimensional sparse array containers
+    bioconductor-sparsematrixstats - bioconductor-sparsematrixstats: Fast matrix statistics algorithms on sparse formats
+    bioconductor-summarizedexperiment - bioconductor-summarizedexperiment: Matrix-like container for experimental genomic assays
+    bioconductor-treeio - bioconductor-treeio: Import, export, and manipulate phylogenetic tree formats
+    bioconductor-treesummarizedexperiment - bioconductor-treesummarizedexperiment: Container for structural and phylogenetic tree data
+    bioconductor-xvector - bioconductor-xvector: Memory-efficient operations on large character vectors
+    bioconductor-zlibbioc - bioconductor-zlibbioc: Compression library utilities for Bioconductor core packages
+    blast - blast: Pairwise local alignment search tool for nucleotide/protein
+    bowtie2 - bowtie2: Fast read aligner for gapped sequencing reads
+    clustalw - clustalw: Classic multiple alignment program for nucleic/protein sequences
+    cutadapt - cutadapt: Trims adapters and primers from high-throughput sequencing reads
+    deblur - deblur: Denoising algorithm for high-resolution amplicon sequence data
+    dendropy - dendropy: Python library for phylogenetic computing and manipulating trees
+    dnaio - dnaio: Fast parsing of FASTQ and FASTA sequence formats
+    entrez-direct - entrez-direct: Command-line access to NCBI Entrez databases
+    fastp - fastp: Ultrafast all-in-one FASTQ preprocessor and QC tool
+    fastqc - fastqc: Quality control assessment tool for high-throughput sequencing data
+    fasttree - fasttree: Infers approximately-maximum-likelihood phylogenetic trees rapidly
+    hmmer - hmmer: Profile hidden Markov models for biosequence analysis
+    htslib - htslib: C library for high-throughput genomic data files
+    iow - iow: Input/output wrapper utilities for computational pipeline streams
+    iqtree - iqtree: Efficient phylogenomic software for maximum likelihood trees
+    muscle - muscle: Multiple sequence alignment program for protein and nucleotide
+    ncbi-datasets-pyclient - ncbi-datasets-pyclient: Python client interface for downloading NCBI Datasets
+    ncbi-vdb - ncbi-vdb: Software library for reading NCBI SRA sequence datasets
+    pasta - pasta: Parallelized multiple sequence alignment for large datasets
+    perl-archive-tar - perl-archive-tar: Module for manipulating POSIX tar archive files
+    perl-io-compress - perl-io-compress: Base framework for reading/writing compressed data
+    perl-io-zlib - perl-io-zlib: IO handle interface for reading/writing gzipped files
+    perl-json - perl-json: High-level JSON encoder and decoder interface for Perl
+    perl-json-xs - perl-json-xs: Fast C-based JSON encoder and decoder for Perl
+    perl-list-moreutils - perl-list-moreutils: Extended set of list utilities not in List::Util
+    perl-list-moreutils-xs - perl-list-moreutils-xs: C-compiled speed optimizations for List::MoreUtils routines
+    perl-types-serialiser - perl-types-serialiser: Simple data types serializer for JSON modules
+    prank - prank: Structure-informed multiple sequence alignment algorithm for DNA/protein
+    pyhmmer - pyhmmer: Python bindings and interface to the HMMER C-library
+    raxml - raxml: Maximum likelihood phylogenetic tree inference software application
+    rnanorm - rnanorm: Normalization metrics for transcriptomic RNA-seq gene expression
+    rpsbproc - rpsbproc: Post-processor for RPS-BLAST protein domain search results
+    samtools - samtools: Tools for manipulating SAM, BAM, and CRAM files
+    sepp - sepp: SATe-enabled phylogenetic placement of short sequence reads
+    seqkit - seqkit: Ultrafast sequence toolkit for manipulating FASTA/FASTQ files
+    sortmerna - sortmerna: Filters and cleans ribosomal RNA from metatranscriptomic data
+    unifrac - unifrac: Performs UniFrac phylogenetic distance metrics on microbial communities
+    unifrac-binaries - unifrac-binaries: C++ high-performance executable engines for computing UniFrac metrics
+    vsearch - vsearch: Versatile sequence search, clustering, and chimera detection tool
+
+/quast_env
+    bedtools - bedtools: Performs genomic interval arithmetic and feature intersections
+    blast - blast: Pairwise local alignment search tool for nucleotide/protein
+    bwa - bwa: Aligning sequencing reads against large reference genomes
+    circos - circos: Circular visualization tool for genomic structural data
+    entrez-direct - entrez-direct: Command-line access to NCBI Entrez databases
+    glimmerhmm - glimmerhmm: Gene finder based on Hidden Markov Models
+    k8 - k8: Lightweight JavaScript engine used by bioinformatics tools
+    minimap2 - minimap2: Versatile pairwise aligner for long reads and assemblies
+    ncbi-vdb - ncbi-vdb: Software library for reading NCBI SRA sequence datasets
+    perl-archive-tar - perl-archive-tar: Module for manipulating POSIX tar archive files
+    perl-config-general - perl-config-general: Generic configuration file parser for Perl scripts
+    perl-digest-perl-md5 - perl-digest-perl-md5: Pure Perl implementation of MD5 hash algorithm
+    perl-font-ttf - perl-font-ttf: Reads and parses TrueType font structures in Perl
+    perl-gd - perl-gd: Interface to GD graphics library for drawing images
+    perl-io-compress - perl-io-compress: Base framework for reading/writing compressed data
+    perl-io-string - perl-io-string: Emulates IO file handles using scalar memory strings
+    perl-io-zlib - perl-io-zlib: IO handle interface for reading/writing gzipped files
+    perl-json - perl-json: High-level JSON encoder and decoder interface for Perl
+    perl-json-xs - perl-json-xs: Fast C-based JSON encoder and decoder for Perl
+    perl-list-moreutils - perl-list-moreutils: Extended set of list utilities not in List::Util
+    perl-list-moreutils-xs - perl-list-moreutils-xs: C-compiled speed optimizations for List::MoreUtils routines
+    perl-math-bezier - perl-math-bezier: Calculates Bezier curve coordinates for graphics routines
+    perl-math-vecstat - perl-math-vecstat: Vector statistics calculator module for numeric arrays
+    perl-params-validate - perl-params-validate: Advanced parameter validation tool for subroutines
+    perl-set-intspan - perl-set-intspan: Manages sets of integers and genomic intervals
+    perl-statistics-basic - perl-statistics-basic: Basic statistical calculations like mean and variance
+    perl-text-format - perl-text-format: Text wrapping, alignment, and formatting module for Perl
+    perl-time-hires - perl-time-hires: High-resolution alarm, sleep, and time measurements
+    perl-types-serialiser - perl-types-serialiser: Simple data types serializer for JSON modules
+    quast - quast: Evaluates genome assemblies using key quality metrics
+    rpsbproc - rpsbproc: Post-processor for RPS-BLAST protein domain search results
+
+/reportgen
+
+/run-rscript
+    bioconductor-biobase - bioconductor-biobase: Core infrastructure for Bioconductor data structures
+    bioconductor-biocgenerics - bioconductor-biocgenerics: Generic functions for Bioconductor object-oriented programming
+    bioconductor-biocparallel - bioconductor-biocparallel: Parallel processing architecture for genomic analysis
+    bioconductor-biostrings - bioconductor-biostrings: Efficient string manipulation and biological sequence representation
+    bioconductor-cigarillo - bioconductor-cigarillo: Utilities for parsing CIGAR strings in genomic alignments
+    bioconductor-dada2 - bioconductor-dada2: Sample inference and profiling of amplicon data
+    bioconductor-delayedarray - bioconductor-delayedarray: Delayed operations on array-like genomic datasets
+    bioconductor-genomicalignments - bioconductor-genomicalignments: Representation and manipulation of genomic sequence alignments
+    bioconductor-genomicranges - bioconductor-genomicranges: Representations for genomic coordinates and overlapping ranges
+    bioconductor-iranges - bioconductor-iranges: Efficient infrastructure for manipulating integer range vectors
+    bioconductor-matrixgenerics - bioconductor-matrixgenerics: Standard row/column summarization methods for matrices
+    bioconductor-pwalign - bioconductor-pwalign: Pairwise sequence alignment utilities using Biostrings
+    bioconductor-rhtslib - bioconductor-rhtslib: Embedded C HTSlib for SAM/BAM file access
+    bioconductor-rsamtools - bioconductor-rsamtools: Interface to SAMtools, BCFtools, and Tabix utilities
+    bioconductor-s4arrays - bioconductor-s4arrays: Infrastructure for array-like objects in R
+    bioconductor-s4vectors - bioconductor-s4vectors: Core S4 vector classes for biological data
+    bioconductor-seqinfo - bioconductor-seqinfo: Metadata structure for genomic sequence information
+    bioconductor-shortread - bioconductor-shortread: Processing and quality control of FASTQ files
+    bioconductor-sparsearray - bioconductor-sparsearray: Infrastructure for multidimensional sparse array containers
+    bioconductor-summarizedexperiment - bioconductor-summarizedexperiment: Matrix-like container for experimental genomic assays
+    bioconductor-xvector - bioconductor-xvector: Memory-efficient operations on large character vectors
+
+/run_dbcans
+    bcbio-gff - bcbio-gff: Parses GFF format genome annotations into Python
+    blast - blast: Pairwise local alignment search tool for nucleotide/protein
+    bwa - bwa: Aligning sequencing reads against large reference genomes
+    bx-python - bx-python: Python framework for genomic intervals and alignments
+    cutadapt - cutadapt: Trims adapters and primers from high-throughput sequencing reads
+    dbcan - dbcan: Automated carbohydrate-active enzyme (CAZyme) annotation pipeline
+    diamond - diamond: High-throughput local alignment for protein and translation
+    dnaio - dnaio: Fast parsing of FASTQ and FASTA sequence formats
+    fastqc - fastqc: Quality control assessment tool for high-throughput sequencing data
+    flye - flye: De novo assembler for single-molecule long-read data
+    htslib - htslib: C library for high-throughput genomic data files
+    java-jdk - java-jdk: Java Development Kit software execution runtime environment
+    k8 - k8: Lightweight JavaScript engine used by bioinformatics tools
+    kraken2 - kraken2: Taxonomic classification system using exact k-mer matches
+    krakentools - krakentools: Post-processing script collection for Kraken2 taxonomy analysis
+    megahit - megahit: Ultra-fast single-node metagenomic assembler for short reads
+    minimap2 - minimap2: Versatile pairwise aligner for long reads and assemblies
+    mmseqs2 - mmseqs2: Fast search and clustering suite for huge protein/nucleotide databases
+    munkres - munkres: Hungarian algorithm implementation for bipartite matching problems
+    popt - popt: Command-line option parsing C library for software tools
+    pyhmmer - pyhmmer: Python bindings and interface to the HMMER C-library
+    pyrodigal - pyrodigal: Python bindings for Prodigal gene caller engine
+    pysam - pysam: Python wrapper for SAMtools and HTSlib library interface
+    samtools - samtools: Tools for manipulating SAM, BAM, and CRAM files
+    trim-galore - trim-galore: Automated wrapper for quality trimming and adapter clipping
+
+/smg_meta
+
+/snakepipe
+    snakemake - snakemake: Workflow management system for reproducible data analysis pipelines
+    snakemake-minimal - snakemake-minimal: Lightweight installation version of Snakemake workflow manager
+
+/snpeff
+    snpeff - snpeff: Genomic variant effect annotation and functional impact predictor
+    snpsift - snpsift: Filtering and annotating genomic variant calls from VCF
+
+/trtools
+    art - art: Simulates sequencing reads for various sequencing platforms
+    bcftools - bcftools: Variant calling and VCF/BCF file manipulation utility
+    cyvcf2 - cyvcf2: Fast Python library for parsing VCF variant files
+    htslib - htslib: C library for high-throughput genomic data files
+    pgenlib - pgenlib: Python interface for reading PLINK binary pedigree files
+    pyfaidx - pyfaidx: Efficient random access indexing for FASTA sequence files
+    pysam - pysam: Python wrapper for SAMtools and HTSlib library interface
+    pyvcf3 - pyvcf3: Python parser for VCF format variant call files
+    trtools - trtools: Processing and analysis toolkit for short tandem repeats
+
+/uptodate
+    blast - blast: Pairwise local alignment search tool for nucleotide/protein
+    entrez-direct - entrez-direct: Command-line access to NCBI Entrez databases
+    fasttree - fasttree: Infers approximately-maximum-likelihood phylogenetic trees rapidly
+    mafft - mafft: Multiple sequence alignment program for amino/nucleotide sequences
+    ncbi-vdb - ncbi-vdb: Software library for reading NCBI SRA sequence datasets
+    perl-archive-tar - perl-archive-tar: Module for manipulating POSIX tar archive files
+    perl-io-compress - perl-io-compress: Base framework for reading/writing compressed data
+    perl-io-zlib - perl-io-zlib: IO handle interface for reading/writing gzipped files
+    perl-json - perl-json: High-level JSON encoder and decoder interface for Perl
+    perl-json-xs - perl-json-xs: Fast C-based JSON encoder and decoder for Perl
+    perl-list-moreutils - perl-list-moreutils: Extended set of list utilities not in List::Util
+    perl-list-moreutils-xs - perl-list-moreutils-xs: C-compiled speed optimizations for List::MoreUtils routines
+    perl-types-serialiser - perl-types-serialiser: Simple data types serializer for JSON modules
+    seqkit - seqkit: Ultrafast sequence toolkit for manipulating FASTA/FASTQ files
+    vsearch - vsearch: Versatile sequence search, clustering, and chimera detection tool
+
+/virus
+    aragorn - aragorn: Detects tRNA and tmRNA genes in nucleotide sequences
+    bcbio-gff - bcbio-gff: Parses GFF format genome annotations into Python
+    blast - blast: Pairwise local alignment search tool for nucleotide/protein
+    bx-python - bx-python: Python framework for genomic intervals and alignments
+    checkv - checkv: Quality assessment and identification of viral genomes
+    diamond - diamond: High-throughput local alignment for protein and translation
+    dnaapler - dnaapler: Re-orients circular genome assemblies to canonical origins
+    entrez-direct - entrez-direct: Command-line access to NCBI Entrez databases
+    genbank - genbank: Tools for processing and converting NCBI GenBank format
+    hmmer - hmmer: Profile hidden Markov models for biosequence analysis
+    infernal - infernal: Searches DNA databases for RNA structure profile HMMs
+    kcounter - kcounter: K-mer counting and profiling library for sequences
+    mash - mash: Genome distance estimation using MinHash k-mer sketches
+    minced - minced: Detects CRISPR loci and repeats in genomic sequences
+    mmseqs2 - mmseqs2: Fast search and clustering suite for huge protein/nucleotide databases
+    ncbi-vdb - ncbi-vdb: Software library for reading NCBI SRA sequence datasets
+    perl-archive-tar - perl-archive-tar: Module for manipulating POSIX tar archive files
+    perl-io-compress - perl-io-compress: Base framework for reading/writing compressed data
+    perl-io-zlib - perl-io-zlib: IO handle interface for reading/writing gzipped files
+    perl-json - perl-json: High-level JSON encoder and decoder interface for Perl
+    perl-json-xs - perl-json-xs: Fast C-based JSON encoder and decoder for Perl
+    perl-list-moreutils - perl-list-moreutils: Extended set of list utilities not in List::Util
+    perl-list-moreutils-xs - perl-list-moreutils-xs: C-compiled speed optimizations for List::MoreUtils routines
+    perl-types-serialiser - perl-types-serialiser: Simple data types serializer for JSON modules
+    phanotate - phanotate: Predicts protein-coding genes in bacteriophage assemblies
+    pharokka - pharokka: Fast automated annotation pipeline for bacteriophage genome contigs
+    pyhmmer - pyhmmer: Python bindings and interface to the HMMER C-library
+    pyrodigal - pyrodigal: Python bindings for Prodigal gene caller engine
+    pyrodigal-gv - pyrodigal-gv: Gene caller for giant viruses based on Pyrodigal
+    pyrodigal-rv - pyrodigal-rv: Gene caller for RNA viruses based on Pyrodigal
+    rpsbproc - rpsbproc: Post-processor for RPS-BLAST protein domain search results
+    trnascan-se - trnascan-se: Searches for transfer RNA genes in genomic sequences
+
+/wgs-euk
+    cd-hit - cd-hit: Rapid clustering and comparison of sequence datasets
+    entrez-direct - entrez-direct: Command-line access to NCBI Entrez databases
+    famdb - famdb: Database interface for managing RepeatMasker family data
+    genometools-genometools - genometools-genometools: Unified collection of tools for structural genome analysis
+    hmmer - hmmer: Profile hidden Markov models for biosequence analysis
+    ltr_retriever - ltr_retriever: Identifies and annotates intact LTR retrotransposons
+    ncbi-vdb - ncbi-vdb: Software library for reading NCBI SRA sequence datasets
+    ninja-nj - ninja-nj: Fast neighbor-joining phylogenetic tree construction software
+    nseg - nseg: Identifies low-complexity regions in protein and nucleotide sequences
+    perl-archive-tar - perl-archive-tar: Module for manipulating POSIX tar archive files
+    perl-data-dump - perl-data-dump: Pretty printer for Perl data structure formatting
+    perl-devel-size - perl-devel-size: Returns total memory size occupied by Perl structures
+    perl-digest-hmac - perl-digest-hmac: Keyed-Hashing for Message Authentication routines in Perl
+    perl-encode-locale - perl-encode-locale: Determines system encoding settings for Perl input/output
+    perl-file-listing - perl-file-listing: Parses directory listings into structured Perl records
+    perl-file-spec - perl-file-spec: Portably performs operations on file and path names
+    perl-html-parser - perl-html-parser: Parsing routines for HTML documents and elements
+    perl-html-tagset - perl-html-tagset: Reference tables for HTML tags and document structures
+    perl-http-cookiejar-lwp - perl-http-cookiejar-lwp: LWP adapter for HTTP CookieJar storage
+    perl-http-cookies - perl-http-cookies: Manages HTTP cookie storage and user sessions
+    perl-http-daemon - perl-http-daemon: Simple HTTP server class for network operations
+    perl-http-date - perl-http-date: Date conversion routines for HTTP protocol formats
+    perl-http-message - perl-http-message: Encapsulates HTTP style request and response messages
+    perl-http-negotiate - perl-http-negotiate: Performs HTTP content negotiation for client request
+    perl-io-compress - perl-io-compress: Base framework for reading/writing compressed data
+    perl-io-html - perl-io-html: Opens HTML files with correct character encoding
+    perl-io-zlib - perl-io-zlib: IO handle interface for reading/writing gzipped files
+    perl-json - perl-json: High-level JSON encoder and decoder interface for Perl
+    perl-json-xs - perl-json-xs: Fast C-based JSON encoder and decoder for Perl
+    perl-libwww-perl - perl-libwww-perl: World Wide Web web-client library interface for Perl
+    perl-list-moreutils - perl-list-moreutils: Extended set of list utilities not in List::Util
+    perl-list-moreutils-xs - perl-list-moreutils-xs: C-compiled speed optimizations for List::MoreUtils routines
+    perl-lwp-mediatypes - perl-lwp-mediatypes: Identifies MIME media types by file extensions
+    perl-lwp-protocol-https - perl-lwp-protocol-https: HTTPS protocol support for LWP web requests
+    perl-module-load - perl-module-load: Dynamically loads Perl modules without explicitly calling require
+    perl-mozilla-ca - perl-mozilla-ca: Mozilla CA certificate store package for Perl
+    perl-net-http - perl-net-http: Low-level HTTP client connection routines for Perl
+    perl-ntlm - perl-ntlm: NTLM authentication protocol implementation for Perl clients
+    perl-socket - perl-socket: Networking constants and conversion functions for system sockets
+    perl-test-fatal - perl-test-fatal: Simple helpers for testing code that throws exceptions
+    perl-test-requiresinternet - perl-test-requiresinternet: Skips tests if no internet connection is present
+    perl-time-local - perl-time-local: Converts local and GMT dates into epoch seconds
+    perl-timedate - perl-timedate: Date and time parsing and formatting module suite
+    perl-types-serialiser - perl-types-serialiser: Simple data types serializer for JSON modules
+    perl-url-encode - perl-url-encode: Encoding and decoding utilities for URL query strings
+    perl-www-robotrules - perl-www-robotrules: Parses robots.txt rules for web crawling scripts
+    pp - pp: Perl compiler for packaging scripts into standalone executables
+    recon - recon: Automated identification and structural classification of repetitive elements
+    repeatafterme - repeatafterme: Rapid sequence repeat extraction and identification tool
+    repeatmasker - repeatmasker: Screens genomic DNA for interspersed repeats and low-complexity
+    repeatmodeler - repeatmodeler: De novo genomic repeat family identification and modeling
+    repeatscout - repeatscout: De novo identification of repeat families in genomes
+    rmblast - rmblast: RepeatMasker compatible search tool derived from NCBI BLAST
+    tesorter - tesorter: Lineage classification tool for transposable elements in plants/fungi
+    trf - trf: Finds and analyzes tandem repeats in DNA sequences
+    ucsc-fatotwobit - ucsc-fatotwobit: Converts FASTA formatted sequences into 2bit binary format
+    ucsc-twobitinfo - ucsc-twobitinfo: Displays sequence names and lengths from 2bit files
+    ucsc-twobittofa - ucsc-twobittofa: Converts 2bit compressed sequence files back to FASTA
+
+/wgs_prok
+    barrnap - barrnap: Predicts ribosomal RNA gene locations in genomes
+    bcftools - bcftools: Variant calling and VCF/BCF file manipulation utility
+    bedtools - bedtools: Performs genomic interval arithmetic and feature intersections
+    bwa - bwa: Aligning sequencing reads against large reference genomes
+    checkm-genome - checkm-genome: Assesses genome quality and lineage-specific completeness
+    dendropy - dendropy: Python library for phylogenetic computing and manipulating trees
+    fastp - fastp: Ultrafast all-in-one FASTQ preprocessor and QC tool
+    fastqc - fastqc: Quality control assessment tool for high-throughput sequencing data
+    hmmer - hmmer: Profile hidden Markov models for biosequence analysis
+    htslib - htslib: C library for high-throughput genomic data files
+    itsx - itsx: Extracts ITS1 and ITS2 fungal ribosomal regions
+    k8 - k8: Lightweight JavaScript engine used by bioinformatics tools
+    minimap2 - minimap2: Versatile pairwise aligner for long reads and assemblies
+    multiqc - multiqc: Aggregate bioinformatics analysis reports into single report
+    pplacer - pplacer: Phylogenetic placement of reads on fixed reference trees
+    prodigal - prodigal: Fast prokaryotic protein-coding gene prediction software engine
+    samtools - samtools: Tools for manipulating SAM, BAM, and CRAM files
+    seqkit - seqkit: Ultrafast sequence toolkit for manipulating FASTA/FASTQ files
+    spades - spades: De novo genome assembler for small genomes
+    
